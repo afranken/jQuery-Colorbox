@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jQuery-Colorbox\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-28 01:23+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: jquery-colorbox.php:46
+msgid "Theme #1"
+msgstr ""
+
+#: jquery-colorbox.php:47
+msgid "Theme #2"
+msgstr ""
+
+#: jquery-colorbox.php:48
+msgid "Theme #3"
+msgstr ""
+
+#: jquery-colorbox.php:49
+msgid "Theme #4"
+msgstr ""
+
+#: jquery-colorbox.php:50
+msgid "Theme #5"
+msgstr ""
+
+#: jquery-colorbox.php:78
+msgid "jQuery Colorbox"
+msgstr ""
+
+#: jquery-colorbox.php:91
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: jquery-colorbox.php:145
+msgid "jQuery Colorbox Settings"
+msgstr "jQuery Colorbox Einstellungen"
+
+#: jquery-colorbox.php:151
+msgid "Select the theme you want to use on your blog."
+msgstr "W&auml;hle das Theme aus, das Du auf Deinem Blog benutzen m&ouml;chtest."
+
+#: jquery-colorbox.php:155
+msgid "Theme"
+msgstr ""
+
+#: jquery-colorbox.php:170
+#, php-format
+msgid "If you would like to make a small (or large) contribution towards future development please consider making a <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr "Wenn Du eine kleine (oder grosse) <a href=\"%1$s\" title=\"%2$s\">%2$s</a> f&uuml;r die Weiterentwicklung m&ouml;chtest, kannst Du das per PayPal tun."
+
+#: jquery-colorbox.php:170
+msgid "donation"
+msgstr "Spende"
+
+#: jquery-colorbox.php:173
+msgid "Save Changes"
+msgstr "&Auml;nderungen speichern"
+
+#~ msgid "Automate Colorbox:"
+#~ msgstr "Colorbox automatisieren:"
+#~ msgid ""
+#~ "Automatically add rel='colorbox[post-ID]' to images in posts. All images "
+#~ "in a post are grouped into a colorbox set."
+#~ msgstr ""
+#~ "Automatisch rel='colorbox[post-ID]' f&uuml;r Bilder in Beitr&auml;gen und "
+#~ "Seite einf&uuml;gen. Alle Bilder innerhalb eines Beitrags oder einer "
+#~ "Seite werden automatisch in ein Set gruppiert."
+#~ msgid "Enable Automatic"
+#~ msgstr "Automatismus aktivieren"
+#~ msgid "You can disable the colorbox effect from the Wordpress editor."
+#~ msgstr "Du kannst den Colorbox Effekt im Wordpress Editor abschalten."
+#~ msgid "Disable Colorbox"
+#~ msgstr "Colorbox abschalten"
+
