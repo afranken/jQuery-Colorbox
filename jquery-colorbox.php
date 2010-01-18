@@ -6,7 +6,7 @@
  * Plugin Name: jQuery Colorbox
  * Plugin URI: http://www.techotronic.de/index.php/plugins/jquery-colorbox/
  * Description: Used to overlay images on the current page. Images in one post are grouped automatically.
- * Version: 1.3.1
+ * Version: 1.3.2
  * Author: Arne Franken
  * Author URI: http://www.techotronic.de/
  * License: GPL
@@ -138,7 +138,7 @@ class jQueryColorbox {
                     if($nestedElement.is("img")){
                         var $groupId = $nestedElement.attr("class").match('colorbox-[0-9]+');
                         //only call colorbox if there is a groupId for the image.
-                        if($groupId){
+                        if($groupId && !$nestedElement.attr("class").match('colorbox-off')){
                             //and calls colorbox function on each img.
                             //elements with the same groupId in the class attribute are grouped
                             //the title of the img is used as the title for the colorbox.
@@ -306,7 +306,7 @@ add_action( 'init', 'jQueryColorbox', 7 );
  * function is called for every page or post rendering.
  *
  * unfortunately, Wordpress does not offer a convenient way to get certain elements from the_content,
- * so I had to do the parsing myself...
+ * so I had to do this by regexp replacement...
  *
  * @param  the_content or the_excerpt
  * @return replaced content or excerpt
@@ -314,23 +314,9 @@ add_action( 'init', 'jQueryColorbox', 7 );
 //TODO: get rid of this...
 function addColorboxGroupIdToImages ($content) {
     global $post;
-    $changedTheContent = false;
-        // create XML representation of the_content
-    $domDocumentTheContent = new DomDocument();
-    $domDocumentTheContent->loadHTML($content);
-        //get all img tags
-    $domNodeListImg = $domDocumentTheContent->getElementsByTagName("img");
-    foreach ($domNodeListImg as $domNode){
-        $classAttributeValue = $domNode->getAttribute("class");
-            // add colorbox CSS class for every img that does not have the "colorbox-off" class
-        if(!preg_match("/colorbox-off/",$classAttributeValue)){
-            $domNode->setAttribute('class', $classAttributeValue . ' colorbox-'.$post->ID);
-            $changedTheContent = true;
-        }
-    }
-    if($changedTheContent){
-        $content = $domDocumentTheContent->saveHTML();
-    }
+    $pattern = "/<img(.*?)class=('|\")([A-Za-z0-9 \/_\.\~\:-]*?)('|\")([^\>]*?)>/i";
+    $replacement = '<img$1class=$2$3 colorbox-'.$post->ID.'$4$5>';
+    $content = preg_replace($pattern, $replacement, $content);
     return $content;
 }
 

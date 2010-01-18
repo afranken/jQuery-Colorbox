@@ -4,7 +4,7 @@ Donate link: http://www.techotronic.de/index.php/donate/
 Tags: jquery, colorbox, lightbox, images, gallery, javascript, overlay
 Requires at least: 2.8.5
 Tested up to: 2.9.1
-Stable tag: 1.3.1
+Stable tag: 1.3.2
 
 Automatically adds Colorbox/Lightbox functionality to all images on the blog. Images are grouped by post.
 
@@ -65,6 +65,9 @@ jQuery Colorbox does not add the colorbox CSS class to images that already conta
 For all images in a post or page, the same CSS class is added. All images with the same CSS class are grouped.
 
 == Changelog ==
+
+= 1.3.2 =
+* moved back to regexp replacement and implemented a workaround in the JavaScript to still allow images to be excluded by adding the class "colorbox-off"
 
 = 1.3.1 =
 * changed include calls for Colorbox JavaScript and CSS to version 1.3.6
