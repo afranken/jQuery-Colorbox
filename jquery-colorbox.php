@@ -6,7 +6,7 @@
  * Plugin Name: jQuery Colorbox
  * Plugin URI: http://www.techotronic.de/index.php/plugins/jquery-colorbox/
  * Description: Used to overlay images on the current page. Images in one post are grouped automatically.
- * Version: 2.0
+ * Version: 2.0.1
  * Author: Arne Franken
  * Author URI: http://www.techotronic.de/
  * License: GPL
@@ -339,7 +339,7 @@ class jQueryColorbox {
                                     echo $this->colorboxSettings['height']=="false"?'':'height:"'.$this->colorboxSettings['heightValue'].$this->colorboxSettings['heightUnit'].'",';
                                     echo $this->colorboxSettings['width']=="false"?'':'width:"'.$this->colorboxSettings['widthValue'].$this->colorboxSettings['widthUnit'].'",';
                                     echo !$this->colorboxSettings['slideshow']?'':'slideshow:true,';
-                                    echo !$this->colorboxSettings['slideshowAuto']?'':'slideshowAuto:true,';
+                                    echo $this->colorboxSettings['slideshowAuto']?'':'slideshowAuto:false,';
                                     echo $this->colorboxSettings['scalePhotos']?'':'scalePhotos:false,'; ?>
                                     slideshowSpeed:"<?php echo $this->colorboxSettings['slideshowSpeed']; ?>",
                                     close:"<?php _e( 'close', JQUERYCOLORBOX_TEXTDOMAIN ); ?>",
