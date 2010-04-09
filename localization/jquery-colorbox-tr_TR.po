@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jQuery-Colorbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-28 21:50+0100\n"
-"PO-Revision-Date: 2010-03-28 23:00+0100\n"
+"POT-Creation-Date: 2010-04-04 14:21+0100\n"
+"PO-Revision-Date: 2010-04-04 14:21+0100\n"
 "Last-Translator: \n"
 "Language-Team: Serhat Yolaçan\n"
 "MIME-Version: 1.0\n"
@@ -47,286 +47,290 @@ msgstr "Tema #7"
 msgid "Theme #8"
 msgstr "Tema #8"
 
-#: jquery-colorbox.php:128
+#: jquery-colorbox.php:124
+msgid "Theme #9"
+msgstr "Tema #9"
+
+#: jquery-colorbox.php:129
 msgid "percent"
 msgstr "yüzde"
 
-#: jquery-colorbox.php:129
+#: jquery-colorbox.php:130
 msgid "pixels"
 msgstr "piksel"
 
-#: jquery-colorbox.php:134
+#: jquery-colorbox.php:135
 msgid "elastic"
 msgstr "elastik"
 
-#: jquery-colorbox.php:135
+#: jquery-colorbox.php:136
 msgid "fade"
 msgstr "solma"
 
-#: jquery-colorbox.php:136
+#: jquery-colorbox.php:137
 msgid "none"
 msgstr "hiçbiri"
 
-#: jquery-colorbox.php:267
-#: jquery-colorbox.php:514
+#: jquery-colorbox.php:268
+#: jquery-colorbox.php:515
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: jquery-colorbox.php:386
+#: jquery-colorbox.php:387
 msgid "close"
 msgstr "kapat"
 
-#: jquery-colorbox.php:387
+#: jquery-colorbox.php:388
 msgid "next"
 msgstr "ileri"
 
-#: jquery-colorbox.php:388
+#: jquery-colorbox.php:389
 msgid "previous"
 msgstr "geri"
 
-#: jquery-colorbox.php:389
+#: jquery-colorbox.php:390
 msgid "start slideshow"
 msgstr "slayt gösterisi başlat"
 
-#: jquery-colorbox.php:390
+#: jquery-colorbox.php:391
 msgid "stop slideshow"
 msgstr "slayt gösterisini durdur"
 
-#: jquery-colorbox.php:391
+#: jquery-colorbox.php:392
 msgid "{current} of {total} images"
 msgstr "{current} / {total}"
 
-#: jquery-colorbox.php:507
+#: jquery-colorbox.php:508
 #, php-format
 msgid "%1$s Settings"
 msgstr "%1$s Ayarları"
 
-#: jquery-colorbox.php:523
+#: jquery-colorbox.php:524
 msgid "Theme"
 msgstr "Tema"
 
-#: jquery-colorbox.php:535
+#: jquery-colorbox.php:536
 msgid "Select the theme you want to use on your blog."
 msgstr "Blogunuzda kullanmak istediğiniz temayı seçiniz."
 
-#: jquery-colorbox.php:540
+#: jquery-colorbox.php:541
 msgid "Theme screenshot"
-msgstr ""
+msgstr "Tema önizleme"
 
-#: jquery-colorbox.php:550
+#: jquery-colorbox.php:551
 #, php-format
 msgid "Automate %1$s for all images"
 msgstr "Tüm resimlerde %1$s kullan"
 
-#: jquery-colorbox.php:554
+#: jquery-colorbox.php:555
 msgid "Automatically add colorbox-class to images in posts and pages. Also adds colorbox-class to galleries. Images in one page or post are grouped automatically."
 msgstr "Yazılardaki ve sayfalardaki resimlere otomatik olarak colorbox-sınıfı ekler. Galerilere de colorbox-sınıfı ekler. Yazı yada sayfadaki resimleri otomatik olarak gruplandırır."
 
-#: jquery-colorbox.php:559
+#: jquery-colorbox.php:560
 #, php-format
 msgid "Automate %1$s for images in WordPress galleries"
 msgstr "Wordpress galerilerine otomatik olarak %1$s ekleyin"
 
-#: jquery-colorbox.php:563
+#: jquery-colorbox.php:564
 msgid "Automatically add colorbox-class to images in WordPress galleries, but nowhere else. Images in one page or post are grouped automatically."
 msgstr "Wordpress galerilerindeki resimlere otomatik olarak colorbox-sınıfı ekler fakat başka yere eklemez. Yazı yada sayfadaki resimler otomatik olarak gruplandırılır."
 
-#: jquery-colorbox.php:568
+#: jquery-colorbox.php:569
 msgid "Add Slideshow to groups"
 msgstr "Gruplara slayt gösterisi ekle"
 
-#: jquery-colorbox.php:572
+#: jquery-colorbox.php:573
 #, php-format
 msgid "Add Slideshow functionality for %1$s Groups"
 msgstr "Slayt gösterisi fonksiyonunu %1$s gruplarına ekler."
 
-#: jquery-colorbox.php:577
+#: jquery-colorbox.php:578
 msgid "Start Slideshow automatically"
 msgstr "Slayt gösterisini otomatik olarak başlat"
 
-#: jquery-colorbox.php:581
+#: jquery-colorbox.php:582
 #, php-format
 msgid "Start Slideshow automatically if slideshow functionality is added to %1$s Groups"
 msgstr "Eğer slayt gösterisi fonksiyonu %1$s gruplarına eklenmişse, slayt gösterisini otomatik olarak başlatır."
 
-#: jquery-colorbox.php:586
+#: jquery-colorbox.php:587
 msgid "Speed of the slideshow"
 msgstr "Slayt gösterisi hızı"
 
-#: jquery-colorbox.php:590
+#: jquery-colorbox.php:591
 msgid "Sets the speed of the slideshow, in milliseconds"
 msgstr "Slayt gösterisinin hızını milisaniye cinsinden belirleyin"
 
-#: jquery-colorbox.php:595
+#: jquery-colorbox.php:596
 msgid "Maximum width of an image"
 msgstr "Maksimum resim genişliği"
 
-#: jquery-colorbox.php:599
-#: jquery-colorbox.php:645
+#: jquery-colorbox.php:600
+#: jquery-colorbox.php:646
 msgid "Do not set width"
 msgstr "Genişlik ayarlarma"
 
-#: jquery-colorbox.php:602
+#: jquery-colorbox.php:603
 msgid "Set maximum width of an image"
 msgstr "Resimler için maksimum genişlik değeri belirleyin"
 
-#: jquery-colorbox.php:613
+#: jquery-colorbox.php:614
 msgid "Set the maximum width of the image in the Colorbox in relation to the browser window in percent or pixels. If maximum width is not set, image is as wide as the Colorbox"
 msgstr "Tarayıcı penceresinde çıkan Colorbox içindeki resimler için yüzde yada piksel değeri belirtin. Eğer maksimum genişlik belirtilmezse resim Colorbox genişliği kadar görünür. Eğer maksimum genişlik belirtilmezse resim Colorbox genişliği kadar görünür"
 
-#: jquery-colorbox.php:618
+#: jquery-colorbox.php:619
 msgid "Maximum height of an image"
 msgstr "Maksimum resim yüksekliği"
 
-#: jquery-colorbox.php:622
-#: jquery-colorbox.php:668
+#: jquery-colorbox.php:623
+#: jquery-colorbox.php:669
 msgid "Do not set height"
 msgstr "Yükseklik ayarlarma"
 
-#: jquery-colorbox.php:625
+#: jquery-colorbox.php:626
 msgid "Set maximum height of an image"
 msgstr "Resimler için maksimum yükseklik değeri belirleyin"
 
-#: jquery-colorbox.php:636
+#: jquery-colorbox.php:637
 msgid "Set the maximum height of the image in the Colorbox in relation to the browser window to a value in percent or pixels. If maximum height is not set, the image is as high as the Colorbox"
 msgstr "Tarayıcı penceresinde çıkan Colorbox içindeki resimler için yüzde yada piksel değeri belirtin. Eğer maksimum yükseklik belirtilmezse resim Colorbox yüksekliği kadar görünür. Eğer yükseklik belirtilmezse Colorbox resim kadar yüksek olur"
 
-#: jquery-colorbox.php:641
+#: jquery-colorbox.php:642
 msgid "Maximum width of the Colorbox"
 msgstr "Colorbox maksimum genişliği"
 
-#: jquery-colorbox.php:648
+#: jquery-colorbox.php:649
 msgid "Set width of the Colorbox"
 msgstr "Colorbox için genişlik belirleyin"
 
-#: jquery-colorbox.php:659
+#: jquery-colorbox.php:660
 msgid "Set the maximum width of the Colorbox itself in relation to the browser window to a value between in percent or pixels. If the image is bigger than the colorbox, scrollbars are displayed. If width is not set, the Colorbox will be as wide as the picture in it"
 msgstr "Tarayıcı penceresinde çıkan Colorbox'ın maksimum genişliği için yüzde ve piksel değeri belirtin. Eğer resim Colorbox'tan büyükse, kaydırma çubukları çıkar. Eğer genişlik belirtilmezse Colorbox resim kadar geniş olur"
 
-#: jquery-colorbox.php:664
+#: jquery-colorbox.php:665
 msgid "Maximum height of the Colorbox"
 msgstr "Colorbox maksimum yüksekliği"
 
-#: jquery-colorbox.php:671
+#: jquery-colorbox.php:672
 msgid "Set height of the Colorbox"
 msgstr "Colorbox için yükseklik belirleyin"
 
-#: jquery-colorbox.php:682
+#: jquery-colorbox.php:683
 msgid "Set the maximum height of the Colorbox itself in relation to the browser window to a value between in percent or pixels. If the image is bigger than the colorbox, scrollbars are displayed. If height is not set, the Colorbox will be as high as the picture in it"
 msgstr "Tarayıcı penceresinde çıkan Colorbox'ın maksimum yüksekliği için yüzde ve piksel değeri belirtin. Eğer resim Colorbox'tan büyükse, kaydırma çubukları çıkar. Eğer yükseklik belirtilmezse Colorbox resim kadar yüksek olur"
 
-#: jquery-colorbox.php:687
+#: jquery-colorbox.php:688
 msgid "Resize images"
 msgstr "Resimleri tekrar boyutlandır"
 
-#: jquery-colorbox.php:691
+#: jquery-colorbox.php:692
 msgid "If enabled and if maximum width of images, maximum height of images, width of the Colorbox, or height of the Colorbox have been defined, ColorBox will scale photos to fit within the those values"
 msgstr "Eğer aktifse, resimlerin maksimum genişliği ile yüksekliği ve Colorbox maksimum yüksekliği ile genişliği belirliyse, Colorbox resimleri bu değerlere ölçekler"
 
-#: jquery-colorbox.php:696
+#: jquery-colorbox.php:697
 msgid "Close Colorbox on overlay click"
 msgstr "Katmana tıklandığında Colorbox kapat"
 
-#: jquery-colorbox.php:700
+#: jquery-colorbox.php:701
 msgid "If checked, enables closing ColorBox by clicking on the background overlay"
 msgstr "Eğer aktifse, arka plandaki katmana tıklandığında Colorbox'ın kapanmasını sağlar"
 
-#: jquery-colorbox.php:705
+#: jquery-colorbox.php:706
 msgid "Preload images"
 msgstr "Resimleri önceden yükle"
 
-#: jquery-colorbox.php:709
+#: jquery-colorbox.php:710
 msgid "Allows for preloading of \"next\" and \"previous\" content in a group, after the current content has finished loading. Uncheck box to disable."
 msgstr "Görüntülenen içeriğin yüklenmesi bittikten sonra, gruptaki \"ileri\" ve \"geri\" içeriğini önceden yükler. Bu sayede galerideki resimler arasında hızlıca geçiş yapılabilir ancak galeride büyük resimler varsa yada çok resim bulunuyorsa yüklenmesi uzun sürecektir. Aktif olmaması için kutucuğu boş bırakın"
 
-#: jquery-colorbox.php:714
+#: jquery-colorbox.php:715
 msgid "Transition type"
 msgstr "Geçiş tipi"
 
-#: jquery-colorbox.php:726
+#: jquery-colorbox.php:727
 msgid "The transition type of the Colorbox. Can be set to \"elastic\", \"fade\", or \"none\""
 msgstr "Colorbox geçiş tipidir. \"elastik\", \"solma\" ya da \"hiçbiri\" seçilebilir"
 
-#: jquery-colorbox.php:731
+#: jquery-colorbox.php:732
 msgid "Transition speed"
 msgstr "Geçiş hızı"
 
-#: jquery-colorbox.php:735
+#: jquery-colorbox.php:736
 msgid "Sets the speed of the \"fade\" and \"elastic\" transitions, in milliseconds"
 msgstr "\"solma\" ve \"elastik\" geçiş hızını milisaniye cinsinden ayarlar"
 
-#: jquery-colorbox.php:740
+#: jquery-colorbox.php:741
 msgid "Opacity"
 msgstr "Şeffaflık"
 
-#: jquery-colorbox.php:744
+#: jquery-colorbox.php:745
 msgid "The overlay opacity level. Range: 0 to 1"
 msgstr "Katmanın şeffaflık seviyesi. Aralık: 0 ile 1 arasındadır"
 
-#: jquery-colorbox.php:749
+#: jquery-colorbox.php:750
 msgid "Automate hiding of flash objects"
-msgstr ""
+msgstr "Flash objelerini otomatik gizle"
 
-#: jquery-colorbox.php:753
+#: jquery-colorbox.php:754
 msgid "Automatically hide embeded flash objects behind the Colorbox layer. Done by setting the wmode to transparent."
-msgstr ""
+msgstr "Colorbox katmanının arkasındaki flash objelerini otomatik olarak gizler. wmode parametresine transparent değeri atar."
 
-#: jquery-colorbox.php:758
+#: jquery-colorbox.php:759
 msgid "Disable warning"
 msgstr "Uyarıyı kapat"
 
-#: jquery-colorbox.php:762
+#: jquery-colorbox.php:763
 msgid "Disables the warning that is displayed if the plugin is activated but the auto-colorbox feature for all images is turned off."
 msgstr "Bu seçenek ile eklenti aktifleştirildikten sonra tüm resimlere otomatik olarak colorbox ekleme seçeneği kapalıysa yönetici panelinde çıkan uyarıyı gizleyebilirsiniz."
 
-#: jquery-colorbox.php:768
+#: jquery-colorbox.php:769
 msgid "Save Changes"
 msgstr "Değişiklikleri kaydet"
 
-#: jquery-colorbox.php:777
-#: jquery-colorbox.php:786
+#: jquery-colorbox.php:778
+#: jquery-colorbox.php:787
 msgid "Delete Settings"
 msgstr "Ayarları sıfırlayın"
 
-#: jquery-colorbox.php:780
+#: jquery-colorbox.php:781
 msgid "Check the box and click this button to delete settings of this plugin."
 msgstr "Bu eklentinin ayarlarını sıfırlamak için kutucuğu doldurup yanındaki butona tıklayın."
 
-#: jquery-colorbox.php:796
+#: jquery-colorbox.php:797
 msgid "Donate"
 msgstr "Bağış yapın"
 
-#: jquery-colorbox.php:810
+#: jquery-colorbox.php:811
 msgid "If you would like to make a small (or large) contribution towards future development please consider making a donation."
 msgstr "Gelecek sürümler için az (yada fazla) farketmez, bağış yapmaktan çekinmeyin."
 
-#: jquery-colorbox.php:819
+#: jquery-colorbox.php:820
 msgid "Translation"
-msgstr ""
+msgstr "Çeviri"
 
-#: jquery-colorbox.php:822
+#: jquery-colorbox.php:823
 msgid "The english translation was done by <a href=\"http://www.techotronic.de\">Arne Franken</a>."
-msgstr ""
+msgstr "Türkçe çeviri <a href=\"http://www.serhatyolacan.com\">Serhat Yolaçan</a> tarafından yapılmıştır."
 
-#: jquery-colorbox.php:845
+#: jquery-colorbox.php:846
 #, php-format
 msgid "Successfully updated %1$s settings."
 msgstr "%1$s ayarları başarılıyla güncellendi."
 
-#: jquery-colorbox.php:847
+#: jquery-colorbox.php:848
 #, php-format
 msgid "%1$s settings were successfully deleted."
 msgstr "%1$s ayarları başarıyla silindi."
 
-#: jquery-colorbox.php:888
+#: jquery-colorbox.php:889
 msgid "needs attention: the plugin is not activated to work for all images."
 msgstr "uyarısı: Eklenti tüm resimlerde çalışmak için ayarlanmamış."
 
-#: jquery-colorbox.php:948
+#: jquery-colorbox.php:949
 msgid "Did not update settings, you do not have the necessary rights."
 msgstr "Ayarları güncelleyemedim, gerekli yetkilere sahip değilsin."
 
-#: jquery-colorbox.php:995
+#: jquery-colorbox.php:996
 #, php-format
 msgid "Did not delete %1$s settings. Either you dont have the nececssary rights or you didnt check the checkbox."
 msgstr "%1$s ayarlarını sıfırlayamadım. Ya gerekli yetkilere sahip değilsin yada kutucuğu doldurmadın."

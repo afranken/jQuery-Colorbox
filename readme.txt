@@ -4,15 +4,15 @@ Donate link: http://www.techotronic.de/index.php/donate/
 Tags: jquery, colorbox, lightbox, images, pictures, photos, gallery, javascript, overlay
 Requires at least: 2.8.5
 Tested up to: 2.9.1
-Stable tag: 3.0.1
+Stable tag: 3.1
 
-Adds Colorbox/Lightbox functionality to images on the blog. Images are grouped by post or page. Also works for WordPress galleries.
+Adds Colorbox/Lightbox functionality to images. They are grouped by post or page. Also works for WordPress galleries. Comes with different themes.
 
 == Description ==
 
 Yet another Colorbox/Lightbox plugin for Wordpress.
 
-jQuery Colorbox features 8 themes from which you can choose. See screenshots tab.
+jQuery Colorbox features 9 themes from which you can choose. See screenshots tab.
 
 When adding an image to a post or page, usually a thumbnail is inserted and linked to the image in original size.
 All images in posts and pages can be displayed in a layer when the thumbnail is clicked.
@@ -32,11 +32,13 @@ Localization
 * Turkish (tr_TR) by <a href="http://www.serhatyolacan.com/">Serhat Yolaçan</a>
 * Portuguese (pt_BR) by <a href="http://twitter.com/gervasioantonio">Gervásio Antônio</a>
 * Bosnian (bs_BA) by <a href="http://www.vjucon.com/">Vedran Jurincic</a>
+* French (fr_FR) by <a href="http://www.tolingo.com/">Tolingo Translations</a>
 
 Is your native language missing? Translating the plugin is easy if you understand english and are fluent in another language. Just send me an email.
 
 Includes <a href="http://colorpowered.com/colorbox/">ColorBox</a> 1.3.6 jQuery plugin from Jack Moore. Colorbox is licensed under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>.
 jQuery Colorbox uses the jQuery library version 1.3.2 bundled with Wordpress. Works with jQuery 1.4.2 too.
+The picture I used for the screenshots was designed by <a href="http://wallpapers.vintage.it/">Davide Vicariotto</a>
 
 == Installation ==
 
@@ -50,7 +52,7 @@ Extract all files from the ZIP file, making sure to keep the file structure inta
 
 ###Configuring The Plugin###
 
-Go to the settings page and choose one of the six themes bundled with the plugin and other settings.
+Go to the settings page and choose one of the themes bundled with the plugin and other settings.
 Do not forget to activate auto Colorbox if you want Colorbox to work for all images.
 
 **See Also:** <a href="http://codex.wordpress.org/Managing_Plugins#Installing_Plugins">"Installing Plugins" article on the WP Codex</a>
@@ -62,9 +64,10 @@ Do not forget to activate auto Colorbox if you want Colorbox to work for all ima
 3. Theme #3
 4. Theme #4
 5. Theme #5
-6. Theme #6
+6. Theme #6 (not compatible with IE6)
 7. Theme #7
-8. Theme #8
+8. Theme #8 (not compatible with IE6)
+9. Theme #9
 
 == Frequently Asked Questions ==
 * I have installed and activated (or updated) jQuery Colorbox, but it doesn't show up when I click on a thumbnail in my blog. Is the plugin broken?
@@ -122,6 +125,13 @@ Feel free to write an email to blog [at] techotronic.de or write a entry at <a h
 I'll include new FAQs in every new version. Promise.
 
 == Changelog ==
+= 3.1 (2010-04-10) =
+* BUGFIX: Automatic hiding of embedded flash objects under Colorbox layer now works in Internet Explorer.
+* NEW: Added theme#9, a modified version of theme#4.
+* NEW: French translation by <a href="http://www.tolingo.com/">Tolingo Translations</a>
+* NEW: If auto colorbox is switched on, plugin now adds Colorbox functionality to every image regardless of position
+* CHANGE: <a href="http://www.serhatyolacan.com/">Serhat Yolaçan</a> updated the turkish translation.
+
 = 3.0.1 (2010-03-31) =
 * BUGFIX: Settings are NOW REALLY not overridden any more every time the plugin gets activated.
 
