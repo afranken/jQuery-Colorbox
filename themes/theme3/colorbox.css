@@ -20,7 +20,7 @@
 */
 #cboxOverlay{background:#000;}
 
-#colorbox{font: 12px Arial,sans-serif;}
+#colorbox{font: 12px Tahoma, Arial,sans-serif;}
     #cboxContent{margin-top:20px;}
         #cboxLoadedContent{background:#000; padding:5px;}
         #cboxTitle{position:absolute; top:-20px; left:0; color:#ccc;}

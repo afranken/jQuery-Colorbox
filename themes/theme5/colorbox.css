@@ -20,7 +20,7 @@
 */
 #cboxOverlay{background:#000;}
 
-#colorbox{font: 12px Arial,sans-serif;}
+#colorbox{font: 12px Tahoma, Arial,sans-serif;}
     #cboxTopLeft{width:14px; height:14px; background:url(images/controls.png) 0 0 no-repeat;}
     #cboxTopCenter{height:14px; background:url(images/border.png) top left repeat-x;}
     #cboxTopRight{width:14px; height:14px; background:url(images/controls.png) -36px 0 no-repeat;}

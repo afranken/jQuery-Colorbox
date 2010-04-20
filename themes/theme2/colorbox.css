@@ -20,7 +20,7 @@
 */
 #cboxOverlay{background:#fff;}
 
-#colorbox{font: 12px Arial,sans-serif;}
+#colorbox{font: 12px Tahoma, Arial,sans-serif;}
     #cboxContent{margin-top:32px;}
         #cboxLoadedContent{background:#000; padding:1px;}
         #cboxLoadingGraphic{background:url(images/loading.gif) center center no-repeat;}
