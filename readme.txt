@@ -11,7 +11,7 @@ Adds Colorbox/Lightbox functionality to images, grouped by post or page. Works f
 == Description ==
 
 Yet another Colorbox/Lightbox plugin for Wordpress.
-jQuery Colorbox features 9 themes from which you can choose. See screenshots tab.
+jQuery Colorbox features 10 themes from which you can choose. See screenshots tab.
 Works out-of-the-box with WordPress Galleries and <a href="http://wordpress.org/extend/plugins/nextgen-gallery/">NextGEN Gallery</a>! (choose no effect in NextGEN settings)
 
 When adding an image to a post or page, usually a thumbnail is inserted and linked to the image in original size.
