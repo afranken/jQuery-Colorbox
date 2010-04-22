@@ -6,7 +6,7 @@ Requires at least: 2.8.5
 Tested up to: 2.9.1
 Stable tag: 3.2
 
-Adds Colorbox/Lightbox functionality to images. They are grouped by post or page. Also works for WordPress and NextGEN galleries. Comes with different themes.
+Adds Colorbox/Lightbox functionality to images, grouped by post or page. Works for WordPress and NextGEN galleries. Comes with different themes.
 
 == Description ==
 
