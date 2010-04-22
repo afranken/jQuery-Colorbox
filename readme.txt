@@ -11,7 +11,7 @@ Adds Colorbox/Lightbox functionality to images, grouped by post or page. Works f
 == Description ==
 
 Yet another Colorbox/Lightbox plugin for Wordpress.
-jQuery Colorbox features 10 themes from which you can choose. See screenshots tab.
+jQuery Colorbox features 10 themes from which you can choose. See screenshots tab or <a href="http://www.techotronic.de/plugins/jquery-colorbox/theme-screenshots/">my website</a>.
 Works out-of-the-box with WordPress Galleries and <a href="http://wordpress.org/extend/plugins/nextgen-gallery/">NextGEN Gallery</a>! (choose no effect in NextGEN settings)
 
 When adding an image to a post or page, usually a thumbnail is inserted and linked to the image in original size.
@@ -45,7 +45,7 @@ The picture I used for the screenshots was designed by <a href="http://wallpaper
 
 ###Updgrading From A Previous Version###
 
-To upgrade from a previous version of this plugin, delete the entire folder and files from the previous version of the plugin and then follow the installation instructions below.
+To upgrade from a previous version of this plugin, use the built in update feature of WordPress or copy the files on top of the current installation.
 
 ###Installing The Plugin###
 
@@ -59,6 +59,7 @@ Do not forget to activate auto Colorbox if you want Colorbox to work for all ima
 **See Also:** <a href="http://codex.wordpress.org/Managing_Plugins#Installing_Plugins">"Installing Plugins" article on the WP Codex</a>
 
 == Screenshots ==
+
 1. Theme #1
 2. Theme #2
 3. Theme #3
@@ -68,6 +69,7 @@ Do not forget to activate auto Colorbox if you want Colorbox to work for all ima
 7. Theme #7
 8. Theme #8 (not compatible with IE6)
 9. Theme #9
+10. Theme #10 (IE does not support the CSS3 rounded edges)
 
 == Frequently Asked Questions ==
 * I installed your plugin, but when I click on a thumbnail, the original picture is loaded directly instead of in the Colorbox. What could be the problem?
