@@ -69,7 +69,7 @@ Do not forget to activate auto Colorbox if you want Colorbox to work for all ima
 7. Theme #7
 8. Theme #8 (not compatible with IE6)
 9. Theme #9
-10. Theme #10 (IE does not support the CSS3 rounded edges)
+10.Theme #10 (IE does not support the CSS3 rounded edges)
 
 == Frequently Asked Questions ==
 * I installed your plugin, but when I click on a thumbnail, the original picture is loaded directly instead of in the Colorbox. What could be the problem?
