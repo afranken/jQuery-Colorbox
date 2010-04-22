@@ -59,7 +59,6 @@ Do not forget to activate auto Colorbox if you want Colorbox to work for all ima
 **See Also:** <a href="http://codex.wordpress.org/Managing_Plugins#Installing_Plugins">"Installing Plugins" article on the WP Codex</a>
 
 == Screenshots ==
-
 1. Theme #1
 2. Theme #2
 3. Theme #3
@@ -69,7 +68,7 @@ Do not forget to activate auto Colorbox if you want Colorbox to work for all ima
 7. Theme #7
 8. Theme #8 (not compatible with IE6)
 9. Theme #9
-10.Theme #10 (IE does not support the CSS3 rounded edges)
+10. Theme #10 (IE does not support the CSS3 rounded edges)
 
 == Frequently Asked Questions ==
 * I installed your plugin, but when I click on a thumbnail, the original picture is loaded directly instead of in the Colorbox. What could be the problem?
@@ -120,7 +119,7 @@ Would you like to help? Translating the plugin is easy if you understand English
 
 * My question isn't answered here. What do I do now?
 
-Feel free to write an email to blog [at] techotronic.de or write a entry at <a href="http://wordpress.org/tags/jquery-colorbox?forum_id=10">the jQuery Colorbox WordPress.org forum</a>.
+Feel free to write an email to blog [at] techotronic.de or open a thread at <a href="http://wordpress.org/tags/jquery-colorbox?forum_id=10">the jQuery Colorbox WordPress.org forum</a>.
 
 I'll include new FAQs in every new version. Promise.
 
