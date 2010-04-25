@@ -60,16 +60,8 @@ Do not forget to activate auto Colorbox if you want Colorbox to work for all ima
 
 == Screenshots ==
 
-1. Theme #1
-2. Theme #2
-3. Theme #3
-4. Theme #4
-5. Theme #5
-6. Theme #6 (not compatible with IE6)
-7. Theme #7
-8. Theme #8 (not compatible with IE6)
-9. Theme #9
-10. Theme #10 (IE does not support the CSS3 rounded edges)
+Since the 3.2 update, the screenshots tab is broken.  
+<a href="http://www.techotronic.de/plugins/jquery-colorbox/theme-screenshots/">Please visit my site for screenshots</a>.
 
 == Frequently Asked Questions ==
 * I installed your plugin, but when I click on a thumbnail, the original picture is loaded directly instead of in the Colorbox. What could be the problem?
