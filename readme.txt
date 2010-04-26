@@ -59,8 +59,7 @@ Do not forget to activate auto Colorbox if you want Colorbox to work for all ima
 **See Also:** <a href="http://codex.wordpress.org/Managing_Plugins#Installing_Plugins">"Installing Plugins" article on the WP Codex</a>
 
 == Screenshots ==
-
-Since the 3.2 update, the screenshots tab is broken.  
+ 
 <a href="http://www.techotronic.de/plugins/jquery-colorbox/theme-screenshots/">Please visit my site for screenshots</a>.
 
 == Frequently Asked Questions ==
