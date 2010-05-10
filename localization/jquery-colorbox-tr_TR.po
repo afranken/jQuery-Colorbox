@@ -1,0 +1,381 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jQuery-Colorbox\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-04 00:10+0100\n"
+"PO-Revision-Date: 2010-05-04 00:10+0100\n"
+"Last-Translator: \n"
+"Language-Team: Serhat Yolaçan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Turkish\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Country: TURKEY\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: jquery-colorbox.php:110
+msgid "Theme #1"
+msgstr "Tema #1"
+
+#: jquery-colorbox.php:111
+msgid "Theme #2"
+msgstr "Tema #2"
+
+#: jquery-colorbox.php:112
+msgid "Theme #3"
+msgstr "Tema #3"
+
+#: jquery-colorbox.php:113
+msgid "Theme #4"
+msgstr "Tema #4"
+
+#: jquery-colorbox.php:114
+msgid "Theme #5"
+msgstr "Tema #5"
+
+#: jquery-colorbox.php:115
+msgid "Theme #6"
+msgstr "Tema #6"
+
+#: jquery-colorbox.php:116
+msgid "Theme #7"
+msgstr "Tema #7"
+
+#: jquery-colorbox.php:117
+msgid "Theme #8"
+msgstr "Tema #8"
+
+#: jquery-colorbox.php:118
+msgid "Theme #9"
+msgstr "Tema #9"
+
+#: jquery-colorbox.php:119
+msgid "Theme #10"
+msgstr "Tema #10"
+
+#: jquery-colorbox.php:120
+msgid "Theme #11"
+msgstr "Tema #11"
+
+#: jquery-colorbox.php:124
+msgid "Theme #12"
+msgstr "Tema #12"
+
+#: jquery-colorbox.php:125
+msgid "Theme #13"
+msgstr "Tema #13"
+
+#: jquery-colorbox.php:126
+msgid "Theme #14"
+msgstr "Tema #14"
+
+#: jquery-colorbox.php:127
+msgid "Theme #15"
+msgstr "Tema #15"
+
+#: jquery-colorbox.php:132
+msgid "percent"
+msgstr "yüzde"
+
+#: jquery-colorbox.php:133
+msgid "pixels"
+msgstr "piksel"
+
+#: jquery-colorbox.php:138
+msgid "elastic"
+msgstr "elastik"
+
+#: jquery-colorbox.php:139
+msgid "fade"
+msgstr "solma"
+
+#: jquery-colorbox.php:140
+msgid "none"
+msgstr "hiçbiri"
+
+#: jquery-colorbox.php:177
+msgid "Using"
+msgstr ""
+
+#: jquery-colorbox.php:274
+#: includes/settings-page.php:101
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: jquery-colorbox.php:335
+#, php-format
+msgid "Successfully updated %1$s settings."
+msgstr "%1$s ayarları başarılıyla güncellendi."
+
+#: jquery-colorbox.php:337
+#, php-format
+msgid "%1$s settings were successfully deleted."
+msgstr "%1$s ayarları başarıyla silindi."
+
+#: jquery-colorbox.php:378
+msgid "needs attention: the plugin is not activated to work for all images."
+msgstr "uyarısı: Eklenti tüm resimlerde çalışmak için ayarlanmamış."
+
+#: jquery-colorbox.php:439
+msgid "Did not update settings, you do not have the necessary rights."
+msgstr "Ayarları güncelleyemedim, gerekli yetkilere sahip değilsin."
+
+#: jquery-colorbox.php:486
+#, php-format
+msgid "Did not delete %1$s settings. Either you dont have the nececssary rights or you didnt check the checkbox."
+msgstr "%1$s ayarlarını sıfırlayamadım. Ya gerekli yetkilere sahip değilsin yada kutucuğu doldurmadın."
+
+#: includes/colorbox-javascript.php:53
+msgid "close"
+msgstr "kapat"
+
+#: includes/colorbox-javascript.php:54
+msgid "next"
+msgstr "ileri"
+
+#: includes/colorbox-javascript.php:55
+msgid "previous"
+msgstr "geri"
+
+#: includes/colorbox-javascript.php:56
+msgid "start slideshow"
+msgstr "slayt gösterisi başlat"
+
+#: includes/colorbox-javascript.php:57
+msgid "stop slideshow"
+msgstr "slayt gösterisini durdur"
+
+#: includes/colorbox-javascript.php:58
+msgid "{current} of {total} images"
+msgstr "{current} / {total}"
+
+#: includes/settings-page.php:94
+#, php-format
+msgid "%1$s Settings"
+msgstr "%1$s Ayarları"
+
+#: includes/settings-page.php:110
+msgid "Theme"
+msgstr "Tema"
+
+#: includes/settings-page.php:122
+msgid "Select the theme you want to use on your blog."
+msgstr "Blogunuzda kullanmak istediğiniz temayı seçiniz."
+
+#: includes/settings-page.php:127
+msgid "Theme screenshot"
+msgstr "Tema önizleme"
+
+#: includes/settings-page.php:137
+#, php-format
+msgid "Automate %1$s for all images"
+msgstr "Tüm resimlerde %1$s kullan"
+
+#: includes/settings-page.php:141
+msgid "Automatically add colorbox-class to images in posts and pages. Also adds colorbox-class to galleries. Images in one page or post are grouped automatically."
+msgstr "Yazılardaki ve sayfalardaki resimlere otomatik olarak colorbox-sınıfı ekler. Galerilere de colorbox-sınıfı ekler. Yazı yada sayfadaki resimleri otomatik olarak gruplandırır."
+
+#: includes/settings-page.php:146
+#, php-format
+msgid "Automate %1$s for images in WordPress galleries"
+msgstr "Wordpress galerilerine otomatik olarak %1$s ekleyin"
+
+#: includes/settings-page.php:150
+msgid "Automatically add colorbox-class to images in WordPress galleries, but nowhere else. Images in one page or post are grouped automatically."
+msgstr "Wordpress galerilerindeki resimlere otomatik olarak colorbox-sınıfı ekler fakat başka yere eklemez. Yazı yada sayfadaki resimler otomatik olarak gruplandırılır."
+
+#: includes/settings-page.php:155
+msgid "Add Slideshow to groups"
+msgstr "Gruplara slayt gösterisi ekle"
+
+#: includes/settings-page.php:159
+#, php-format
+msgid "Add Slideshow functionality for %1$s Groups"
+msgstr "Slayt gösterisi fonksiyonunu %1$s gruplarına ekler."
+
+#: includes/settings-page.php:164
+msgid "Start Slideshow automatically"
+msgstr "Slayt gösterisini otomatik olarak başlat"
+
+#: includes/settings-page.php:168
+#, php-format
+msgid "Start Slideshow automatically if slideshow functionality is added to %1$s Groups"
+msgstr "Eğer slayt gösterisi fonksiyonu %1$s gruplarına eklenmişse, slayt gösterisini otomatik olarak başlatır."
+
+#: includes/settings-page.php:173
+msgid "Speed of the slideshow"
+msgstr "Slayt gösterisi hızı"
+
+#: includes/settings-page.php:176
+#: includes/settings-page.php:321
+msgid "milliseconds"
+msgstr "milisaniye"
+
+#: includes/settings-page.php:177
+msgid "Sets the speed of the slideshow, in milliseconds"
+msgstr "Slayt gösterisinin hızını milisaniye cinsinden belirleyin"
+
+#: includes/settings-page.php:182
+msgid "Maximum width of an image"
+msgstr "Maksimum resim genişliği"
+
+#: includes/settings-page.php:186
+#: includes/settings-page.php:232
+msgid "Do not set width"
+msgstr "Genişlik ayarlarma"
+
+#: includes/settings-page.php:189
+msgid "Set maximum width of an image"
+msgstr "Resimler için maksimum genişlik değeri belirleyin"
+
+#: includes/settings-page.php:200
+msgid "Set the maximum width of the image in the Colorbox in relation to the browser window in percent or pixels. If maximum width is not set, image is as wide as the Colorbox"
+msgstr "Tarayıcı penceresinde çıkan Colorbox içindeki resimler için yüzde yada piksel değeri belirtin. Eğer maksimum genişlik belirtilmezse resim Colorbox genişliği kadar görünür. Eğer maksimum genişlik belirtilmezse resim Colorbox genişliği kadar görünür"
+
+#: includes/settings-page.php:205
+msgid "Maximum height of an image"
+msgstr "Maksimum resim yüksekliği"
+
+#: includes/settings-page.php:209
+#: includes/settings-page.php:255
+msgid "Do not set height"
+msgstr "Yükseklik ayarlarma"
+
+#: includes/settings-page.php:212
+msgid "Set maximum height of an image"
+msgstr "Resimler için maksimum yükseklik değeri belirleyin"
+
+#: includes/settings-page.php:223
+msgid "Set the maximum height of the image in the Colorbox in relation to the browser window to a value in percent or pixels. If maximum height is not set, the image is as high as the Colorbox"
+msgstr "Tarayıcı penceresinde çıkan Colorbox içindeki resimler için yüzde yada piksel değeri belirtin. Eğer maksimum yükseklik belirtilmezse resim Colorbox yüksekliği kadar görünür. Eğer yükseklik belirtilmezse Colorbox resim kadar yüksek olur"
+
+#: includes/settings-page.php:228
+msgid "Maximum width of the Colorbox"
+msgstr "Colorbox maksimum genişliği"
+
+#: includes/settings-page.php:235
+msgid "Set width of the Colorbox"
+msgstr "Colorbox için genişlik belirleyin"
+
+#: includes/settings-page.php:246
+msgid "Set the maximum width of the Colorbox itself in relation to the browser window to a value between in percent or pixels. If the image is bigger than the colorbox, scrollbars are displayed. If width is not set, the Colorbox will be as wide as the picture in it"
+msgstr "Tarayıcı penceresinde çıkan Colorbox'ın maksimum genişliği için yüzde ve piksel değeri belirtin. Eğer resim Colorbox'tan büyükse, kaydırma çubukları çıkar. Eğer genişlik belirtilmezse Colorbox resim kadar geniş olur"
+
+#: includes/settings-page.php:251
+msgid "Maximum height of the Colorbox"
+msgstr "Colorbox maksimum yüksekliği"
+
+#: includes/settings-page.php:258
+msgid "Set height of the Colorbox"
+msgstr "Colorbox için yükseklik belirleyin"
+
+#: includes/settings-page.php:269
+msgid "Set the maximum height of the Colorbox itself in relation to the browser window to a value between in percent or pixels. If the image is bigger than the colorbox, scrollbars are displayed. If height is not set, the Colorbox will be as high as the picture in it"
+msgstr "Tarayıcı penceresinde çıkan Colorbox'ın maksimum yüksekliği için yüzde ve piksel değeri belirtin. Eğer resim Colorbox'tan büyükse, kaydırma çubukları çıkar. Eğer yükseklik belirtilmezse Colorbox resim kadar yüksek olur"
+
+#: includes/settings-page.php:274
+msgid "Resize images"
+msgstr "Resimleri tekrar boyutlandır"
+
+#: includes/settings-page.php:278
+msgid "If enabled and if maximum width of images, maximum height of images, width of the Colorbox, or height of the Colorbox have been defined, ColorBox will scale photos to fit within the those values"
+msgstr "Eğer aktifse, resimlerin maksimum genişliği ile yüksekliği ve Colorbox maksimum yüksekliği ile genişliği belirliyse, Colorbox resimleri bu değerlere ölçekler"
+
+#: includes/settings-page.php:283
+msgid "Close Colorbox on overlay click"
+msgstr "Katmana tıklandığında Colorbox kapat"
+
+#: includes/settings-page.php:287
+msgid "If checked, enables closing ColorBox by clicking on the background overlay"
+msgstr "Eğer aktifse, arka plandaki katmana tıklandığında Colorbox'ın kapanmasını sağlar"
+
+#: includes/settings-page.php:292
+msgid "Preload images"
+msgstr "Resimleri önceden yükle"
+
+#: includes/settings-page.php:296
+msgid "Allows for preloading of \"next\" and \"previous\" content in a group, after the current content has finished loading. Uncheck box to disable."
+msgstr "Görüntülenen içeriğin yüklenmesi bittikten sonra, gruptaki \"ileri\" ve \"geri\" içeriğini önceden yükler. Bu sayede galerideki resimler arasında hızlıca geçiş yapılabilir ancak galeride büyük resimler varsa yada çok resim bulunuyorsa yüklenmesi uzun sürecektir. Aktif olmaması için kutucuğu boş bırakın"
+
+#: includes/settings-page.php:301
+msgid "Transition type"
+msgstr "Geçiş tipi"
+
+#: includes/settings-page.php:313
+msgid "The transition type of the Colorbox. Can be set to \"elastic\", \"fade\", or \"none\""
+msgstr "Colorbox geçiş tipidir. \"elastik\", \"solma\" ya da \"hiçbiri\" seçilebilir"
+
+#: includes/settings-page.php:318
+msgid "Transition speed"
+msgstr "Geçiş hızı"
+
+#: includes/settings-page.php:322
+msgid "Sets the speed of the \"fade\" and \"elastic\" transitions, in milliseconds"
+msgstr "\"solma\" ve \"elastik\" geçiş hızını milisaniye cinsinden ayarlar"
+
+#: includes/settings-page.php:327
+msgid "Opacity"
+msgstr "Şeffaflık"
+
+#: includes/settings-page.php:331
+msgid "The overlay opacity level. Range: 0 to 1"
+msgstr "Katmanın şeffaflık seviyesi. Aralık: 0 ile 1 arasındadır"
+
+#: includes/settings-page.php:336
+msgid "Automate hiding of flash objects"
+msgstr "Flash objelerini otomatik gizle"
+
+#: includes/settings-page.php:340
+msgid "Automatically hide embeded flash objects behind the Colorbox layer. Done by setting the wmode to transparent."
+msgstr "Colorbox katmanının arkasındaki flash objelerini otomatik olarak gizler. wmode parametresine transparent değeri atar."
+
+#: includes/settings-page.php:345
+msgid "Disable warning"
+msgstr "Uyarıyı kapat"
+
+#: includes/settings-page.php:349
+msgid "Disables the warning that is displayed if the plugin is activated but the auto-colorbox feature for all images is turned off."
+msgstr "Bu seçenek ile eklenti aktifleştirildikten sonra tüm resimlere otomatik olarak colorbox ekleme seçeneği kapalıysa yönetici panelinde çıkan uyarıyı gizleyebilirsiniz."
+
+#: includes/settings-page.php:355
+msgid "Save Changes"
+msgstr "Değişiklikleri kaydet"
+
+#: includes/settings-page.php:364
+#: includes/settings-page.php:373
+msgid "Delete Settings"
+msgstr "Ayarları sıfırlayın"
+
+#: includes/settings-page.php:367
+msgid "Check the box and click this button to delete settings of this plugin."
+msgstr "Bu eklentinin ayarlarını sıfırlamak için kutucuğu doldurup yanındaki butona tıklayın."
+
+#: includes/settings-page.php:383
+msgid "Donate"
+msgstr "Bağış yapın"
+
+#: includes/settings-page.php:397
+msgid "If you would like to make a small (or large) contribution towards future development please consider making a donation."
+msgstr "Gelecek sürümler için az (yada fazla) farketmez, bağış yapmaktan çekinmeyin."
+
+#: includes/settings-page.php:406
+msgid "Translation"
+msgstr "Çeviri"
+
+#: includes/settings-page.php:409
+msgid "The english translation was done by <a href=\"http://www.techotronic.de\">Arne Franken</a>."
+msgstr "Türkçe çeviri <a href=\"http://www.serhatyolacan.com\">Serhat Yolaçan</a> tarafından yapılmıştır."
+
+#~ msgid "maxWidth"
+#~ msgstr "Maximum width of an image"
+
+#~ msgid "maxHeight"
+#~ msgstr "Maximum height of an image"
+
+#~ msgid "width"
+#~ msgstr "Maxinmum width of the Colorbox"
+
+#~ msgid "height"
+#~ msgstr "Maximum height of the Colorbox"
