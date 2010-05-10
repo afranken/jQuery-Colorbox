@@ -15,7 +15,7 @@
     // <![CDATA[
     jQuery(document).ready(function($) {
     <?php //gets all "a" elements that have a nested "img" ?>
-        $("a:has(img):not(.colorbox-off)").each(function(index, obj) {
+        $("a:has(img)").each(function(index, obj) {
         <?php //only go on if link points to an image ?>
             if ($(obj).attr("href").match(/\.(?:jpe?g|gif|png|bmp)/i)) {
             <?php //in this context, the first child is always an image if fundamental Wordpress functions are used ?>

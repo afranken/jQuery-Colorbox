@@ -165,9 +165,6 @@ Feel free to write an email to blog [at] techotronic.de or open a thread at <a h
 I'll include new FAQs in every new version. Promise.
 
 == Changelog ==
-= 3.4 (2010-) =
-* NEW: Colorbox is not applied to image links that have the class "colorbox-off"
-
 = 3.3 (2010-05-05) =
 * NEW: Belorussian translation by <a href="http://www.pc.de/">Marcis G.</a>
 * NEW: Russian translation by <a href="http://drive2life.ru">Drive2Life.ru</a>
