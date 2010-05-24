@@ -1,372 +1,372 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: jQuery-Colorbox 3.3 Arabic\n"
+"Project-Id-Version: jQuery-Colorbox 3.3 Malay (Bahasa/Melayu)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-24 22:50+0100\n"
-"PO-Revision-Date: 2010-05-24 22:50+0100\n"
+"POT-Creation-Date: 2010-05-24 00:11+0100\n"
+"PO-Revision-Date: 2010-05-24 20:42+0100\n"
 "Last-Translator: \n"
-"Language-Team: Mickey Mouse <modarsoos@yahoo.com>\n"
+"Language-Team: ini;sahaini <sahaini@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Arabic\n"
+"X-Poedit-Language: Malay\n"
 "X-Poedit-KeywordsList: _e;__\n"
 "X-Poedit-Basepath: ..\n"
-"X-Poedit-Country: SYRIAN ARAB REPUBLIC\n"
+"X-Poedit-Country: MALAYSIA\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: jquery-colorbox.php:110
 msgid "Theme #1"
-msgstr "القالب الأول"
+msgstr "Tema #1"
 
 #: jquery-colorbox.php:111
 msgid "Theme #2"
-msgstr "القالب الثاني"
+msgstr "Tema #2"
 
 #: jquery-colorbox.php:112
 msgid "Theme #3"
-msgstr "القالب الثالث"
+msgstr "Tema #3"
 
 #: jquery-colorbox.php:113
 msgid "Theme #4"
-msgstr "القالب الرابع"
+msgstr "Tema #4"
 
 #: jquery-colorbox.php:114
 msgid "Theme #5"
-msgstr "القالب الخامس"
+msgstr "Tema #5"
 
 #: jquery-colorbox.php:115
 msgid "Theme #6"
-msgstr "القالب السادس"
+msgstr "Tema #6"
 
 #: jquery-colorbox.php:116
 msgid "Theme #7"
-msgstr "القالب السابع"
+msgstr "Tema #7"
 
 #: jquery-colorbox.php:117
 msgid "Theme #8"
-msgstr "القالب الثامن"
+msgstr "Tema #8"
 
 #: jquery-colorbox.php:118
 msgid "Theme #9"
-msgstr "القالب التاسع"
+msgstr "Tema #9"
 
 #: jquery-colorbox.php:119
 msgid "Theme #10"
-msgstr "القالب العاشر"
+msgstr "Tema #10"
 
 #: jquery-colorbox.php:120
 msgid "Theme #11"
-msgstr "القالب الحادي عشر"
+msgstr "Tema #11"
 
 #: jquery-colorbox.php:124
 msgid "Theme #12"
-msgstr "القالب الثاني عشر"
+msgstr "Tema #12"
 
 #: jquery-colorbox.php:125
 msgid "Theme #13"
-msgstr "القالب الثالث عشر"
+msgstr "Tema #13"
 
 #: jquery-colorbox.php:126
 msgid "Theme #14"
-msgstr "القالب الرابع عشر"
+msgstr "Tema #14"
 
 #: jquery-colorbox.php:127
 msgid "Theme #15"
-msgstr "القالب الخامس عشر"
+msgstr "Tema #15"
 
 #: jquery-colorbox.php:132
 msgid "percent"
-msgstr "بالمئة"
+msgstr "peratus"
 
 #: jquery-colorbox.php:133
 msgid "pixels"
-msgstr "بيكسل"
+msgstr "piksel"
 
 #: jquery-colorbox.php:138
 msgid "elastic"
-msgstr "تمدد"
+msgstr "anjal"
 
 #: jquery-colorbox.php:139
 msgid "fade"
-msgstr "تضاءل"
+msgstr "pudar"
 
 #: jquery-colorbox.php:140
 msgid "none"
-msgstr "بدون تأثير"
+msgstr "tiada"
 
 #: jquery-colorbox.php:177
 msgid "Using"
-msgstr "أستخدم معرض صور"
+msgstr "Menggunakan"
 
 #: jquery-colorbox.php:274
 #: includes/settings-page.php:101
 msgid "Settings"
-msgstr "إعدادات"
+msgstr "Tetapan"
 
 #: jquery-colorbox.php:335
 #, php-format
 msgid "Successfully updated %1$s settings."
-msgstr "تم تحديث إعدادات برنامج %1$s بنجاح."
+msgstr "Tetapan %1$s telah berjaya dikemaskinikan"
 
 #: jquery-colorbox.php:337
 #, php-format
 msgid "%1$s settings were successfully deleted."
-msgstr "%1$s تم حذف الإعدادات بنجاح."
+msgstr "Tetapan %1$s telah berjaya dibubarkan"
 
 #: jquery-colorbox.php:378
 msgid "needs attention: the plugin is not activated to work for all images."
-msgstr "تنبيه: لم يتم تنشيط برنامج صندوق عرض الشرائح ليعمل على جميع الصور."
+msgstr "perhatian diperlukan: palam (plugin) tidak diaktifkan untuk semua imej"
 
 #: jquery-colorbox.php:439
 msgid "Did not update settings, you do not have the necessary rights."
-msgstr "لم يتم تحديث الإعدادات، ليس لديك الصلاحيات الكافية."
+msgstr "Tetapan tidak dikemaskini, anda tidak mempunyai kebenaran yang diperlukan"
 
 #: jquery-colorbox.php:486
 #, php-format
 msgid "Did not delete %1$s settings. Either you dont have the nececssary rights or you didnt check the checkbox."
-msgstr "لم يتم حذف إعدادات %1$s  أو ليس لديك الصلاحيات الكافية أو بأنك لم تقم بتحديد العلامة داخل المربع الصغير قبل الضغط على زر حذف الإعدادات."
+msgstr "Tetapan %1$s tidak dibubarkan. Sama ada anda tidak mempunyai kebenaran yang diperlukan atau anda tidak menanda pada kotak pilihan"
 
 #: includes/colorbox-javascript.php:53
 msgid "close"
-msgstr "إغلاق"
+msgstr "tutup"
 
 #: includes/colorbox-javascript.php:54
 msgid "next"
-msgstr "التالي"
+msgstr "selepasnya"
 
 #: includes/colorbox-javascript.php:55
 msgid "previous"
-msgstr "السابق"
+msgstr "sebelumnya"
 
 #: includes/colorbox-javascript.php:56
 msgid "start slideshow"
-msgstr "بدء عرض الشرائح"
+msgstr "mula persembahan-slaid"
 
 #: includes/colorbox-javascript.php:57
 msgid "stop slideshow"
-msgstr "إيقاف عرض الشرائح"
+msgstr "henti persembahan-slaid"
 
 #: includes/colorbox-javascript.php:58
 msgid "{current} of {total} images"
-msgstr "{current} من {total} إجمالي الصور"
+msgstr "{current} daripada {total} imej"
 
 #: includes/settings-page.php:94
 #, php-format
 msgid "%1$s Settings"
-msgstr "%1$s إعدادات"
+msgstr "Tetapann %1$s"
 
 #: includes/settings-page.php:110
 msgid "Theme"
-msgstr "حدد القالب"
+msgstr "Tema"
 
 #: includes/settings-page.php:122
 msgid "Select the theme you want to use on your blog."
-msgstr "حدد القالب الذي تريد استخدامه في موقعك من القائمة المنسدلة."
+msgstr "Pilih tema yang anda mahu guna untuk blog anda."
 
 #: includes/settings-page.php:127
 msgid "Theme screenshot"
-msgstr "صورة القالب"
+msgstr "Paparan tema"
 
 #: includes/settings-page.php:137
 #, php-format
 msgid "Automate %1$s for all images"
-msgstr "شغل برنامج %1$s لجميع الصور تلقائياً"
+msgstr "Auto-jana %1$s untuk semua imej"
 
 #: includes/settings-page.php:141
 msgid "Automatically add colorbox-class to images in posts and pages. Also adds colorbox-class to galleries. Images in one page or post are grouped automatically."
-msgstr "أضف صندوق عرض الشرائح بشكل تلقائي لعرض الصور في المواضيع والصفحات. سيقوم البرنامج بدمج جميع الصور في الموضوع تلقائياً."
+msgstr "Menjana secara auto penambahan Colorbox-class untuk setiap imej-imej di dalam setiap kiriman (posts) dan laman (pages). Imej di dalam laman atau kiriman dikumpulkan secara auto."
 
 #: includes/settings-page.php:146
 #, php-format
 msgid "Automate %1$s for images in WordPress galleries"
-msgstr "أتمتة %1$s للصور في معرض صور الموقع"
+msgstr "Auto-jana %1$s untuk semua imej di dalam galeri Wordpress"
 
 #: includes/settings-page.php:150
 msgid "Automatically add colorbox-class to images in WordPress galleries, but nowhere else. Images in one page or post are grouped automatically."
-msgstr "أضف صندوق عرض الشرائح بشكل تلقائي للصور في معرض صور الموقع، سيقوم البرنامج بدمج جميع الصور في الموضوع تلقائياً."
+msgstr "Menjana secara auto penambahan Colorbox-class untuk setiap imej-imej di dalam galeri Wordpress sahaja. Imej di dalam laman atau kiriman dikumpulkan secara auto."
 
 #: includes/settings-page.php:155
 msgid "Add Slideshow to groups"
-msgstr "إضافة عرض الشرائح للمجموعات"
+msgstr "Tambah persembahan-slaid di dalam kumpulan"
 
 #: includes/settings-page.php:159
 #, php-format
 msgid "Add Slideshow functionality for %1$s Groups"
-msgstr "إضافة عرض الشرائح لمجموعات %1$s"
+msgstr "Menambah kefungsian persembahan-slaid untuk %1$s Groups"
 
 #: includes/settings-page.php:164
 msgid "Start Slideshow automatically"
-msgstr "ابدأ عرض الشرائح تلقائياً"
+msgstr "Auto-mula persembahan-slaid"
 
 #: includes/settings-page.php:168
 #, php-format
 msgid "Start Slideshow automatically if slideshow functionality is added to %1$s Groups"
-msgstr "ابدأ عرض الشرائح تلقائياً إذا كانت خصائص عرض الشرائح قد أضيفت لمجموعات %1$s"
+msgstr "Memulakan persembahan-slaid secara auto sekiranya kefungsian persembahan-slaid telah ditambah kepada %1$s Groups"
 
 #: includes/settings-page.php:173
 msgid "Speed of the slideshow"
-msgstr "سرعة عرض الشرائح"
+msgstr "Kitaran persembahan-slaid"
 
 #: includes/settings-page.php:176
 #: includes/settings-page.php:321
 msgid "milliseconds"
-msgstr "ميلي ثانية"
+msgstr "milisaat"
 
 #: includes/settings-page.php:177
 msgid "Sets the speed of the slideshow, in milliseconds"
-msgstr "حدد سرعة عرض الشرائح بالميلي ثانية"
+msgstr "Menetapkan kitaran persembahan-slaid, di dalam milisaat"
 
 #: includes/settings-page.php:182
 msgid "Maximum width of an image"
-msgstr "أقصى عرض للصورة"
+msgstr "Had maksimum lebar sesuatu imej"
 
 #: includes/settings-page.php:186
 #: includes/settings-page.php:232
 msgid "Do not set width"
-msgstr "عدم تعيين عرض"
+msgstr "Jangan tetapkan lebar"
 
 #: includes/settings-page.php:189
 msgid "Set maximum width of an image"
-msgstr "تعيين أقصى عرض للصورة"
+msgstr "Tetapkan lebar maksimum sesuatu imej"
 
 #: includes/settings-page.php:200
 msgid "Set the maximum width of the image in the Colorbox in relation to the browser window in percent or pixels. If maximum width is not set, image is as wide as the Colorbox"
-msgstr "حدد العرض الأقصى لصندوق عرض الشرائح بالنسبة المئوية أو بالبيكسل ليتناسب مع متصفحك. إذا لم يتم تعيين العرض، سيكون عرض الصورة مثل عرض صندوق عرض الشرائح"
+msgstr "Menetapkan lebar maksimum sesuatu imej di dalam Colorbox berdasarkan tetingkap pelayar internet di dalam nilai peratus atau piksel. Jika nilai maksimum tidak ditetapkan, imej akan selebar tetapan Colorbox"
 
 #: includes/settings-page.php:205
 msgid "Maximum height of an image"
-msgstr "أقصى ارتفاع للصورة"
+msgstr "Had maksimum tinggi sesuatu imej"
 
 #: includes/settings-page.php:209
 #: includes/settings-page.php:255
 msgid "Do not set height"
-msgstr "عدم تعيين الارتفاع"
+msgstr "Jangan tetapkan tinggi"
 
 #: includes/settings-page.php:212
 msgid "Set maximum height of an image"
-msgstr "تعيين الارتفاع الأقصى للصورة"
+msgstr "Tetapkan tinggi maksimum sesuatu imej"
 
 #: includes/settings-page.php:223
 msgid "Set the maximum height of the image in the Colorbox in relation to the browser window to a value in percent or pixels. If maximum height is not set, the image is as high as the Colorbox"
-msgstr "حدد الارتفاع الأقصى لصندوق عرض الشرائح بالنسبة المئوية أو بالبيكسل ليتناسب مع متصفحك. إذا لم يتم تعيين الارتفاع، سيكون ارتفاع الصورة مثل ارتفاع صندوق عرض الشرائح."
+msgstr "Menetapkan tinggi maksimum sesuatu imej di dalam Colorbox berdasarkan tetingkap pelayar internet di dalam nilai peratus atau piksel. Jika nilai maksimum tidak ditetapkan, imej akan setinggi tetapan Colorbox"
 
 #: includes/settings-page.php:228
 msgid "Maximum width of the Colorbox"
-msgstr "الحد الأقصى لعرض صندوق عرض الشرائح"
+msgstr "Had maksimum lebar Colorbox"
 
 #: includes/settings-page.php:235
 msgid "Set width of the Colorbox"
-msgstr "تعيين عرض صندوق عرض الشرائح"
+msgstr "Tetapkan lebar Colorbox"
 
 #: includes/settings-page.php:246
 msgid "Set the maximum width of the Colorbox itself in relation to the browser window to a value between in percent or pixels. If the image is bigger than the colorbox, scrollbars are displayed. If width is not set, the Colorbox will be as wide as the picture in it"
-msgstr "حدد العرض الأقصى لصندوق عرض الشرائح بالنسبة المئوية أو بالبيكسل ليتناسب مع متصفحك. إذا كانت الصورة أكبر من صندوق عرض الشرائح، سيتم عرض أشرطة التمرير، وإذا لم يتم تعيين العرض، سيكون صندوق عرض الشرائح عريضاً كعرض الصورة التي بداخله."
+msgstr "Menetapkan lebar maksimum Colorbox itu sendiri berdasarkan tetingkap pelayar internet di dalam nilai peratus atau piksel. Jika imej lebih besar daripada Colorbox, palang skrol dipaparkan. Jika tidak ditetapkan, Colorbox akan selebar imej yang dipaparkan"
 
 #: includes/settings-page.php:251
 msgid "Maximum height of the Colorbox"
-msgstr "الحد الأقصى لارتفاع صندوق عرض الشرائح"
+msgstr "Had maksimum tinggi Colorbox"
 
 #: includes/settings-page.php:258
 msgid "Set height of the Colorbox"
-msgstr "تعيين ارتفاع صندوق عرض الشرائح"
+msgstr "Tetapkan tinggi Colorbox"
 
 #: includes/settings-page.php:269
 msgid "Set the maximum height of the Colorbox itself in relation to the browser window to a value between in percent or pixels. If the image is bigger than the colorbox, scrollbars are displayed. If height is not set, the Colorbox will be as high as the picture in it"
-msgstr "حدد الارتفاع الأقصى لصندوق عرض الشرائح بالنسبة المئوية أو بالبيكسل ليتناسب مع متصفحك. إذا كانت الصورة أكبر من صندوق عرض الشرائح، سيتم عرض أشرطة التمرير، وإذا لم يتم تعيين الارتفاع، سيكون صندوق عرض الشرائح طويلاً كطول الصورة التي بداخله."
+msgstr "Menetapkan tinggi maksimum Colorbox itu sendiri berdasarkan tetingkap pelayar internet di dalam nilai peratus atau piksel. Jika imej lebih besar daripada Colorbox, palang skrol dipaparkan. Jika tidak ditetapkan, Colorbox akan setinggi imej yang dipaparkan"
 
 #: includes/settings-page.php:274
 msgid "Resize images"
-msgstr "تعديل حجم الصورة"
+msgstr "Tala-saiz imej-imej"
 
 #: includes/settings-page.php:278
 msgid "If enabled and if maximum width of images, maximum height of images, width of the Colorbox, or height of the Colorbox have been defined, ColorBox will scale photos to fit within the those values"
-msgstr "إذا كنت قد فعلت هذا الخيار وكنت قد عدلت في \"عرض وارتفاع الصور\" و\"عرض وارتفاع صندوق عرض الشرائح\" سيقوم صندوق عرض الشرائح بعرض الصور لتتلائم مع هذه القيم"
+msgstr "Jika dipilih dan jika lebar maksimum imej-imej, tinggi maksimum imej-imej, lebar Colorbox atau tinggi Colorbox telah diatur, Colorbox akan mensesuaikan foto supaya muat di dalam nilai-nilai yang telah ditetapkan"
 
 #: includes/settings-page.php:283
 msgid "Close Colorbox on overlay click"
-msgstr "إغلاق صندوق عرض الشرائح"
+msgstr "Batal Colorbox dengan klik pada lapisan telus"
 
 #: includes/settings-page.php:287
 msgid "If checked, enables closing ColorBox by clicking on the background overlay"
-msgstr "إذا حددت هذا الخيار، يمكنك إغلاق صندوق عرض الشرائح عند الضغط في أي مكان على الخلفية الشفافة"
+msgstr "Jika ditetapkan, memilih untuk membatalkan Colorbox dengan klik pada lapisan telus latarbelakang"
 
 #: includes/settings-page.php:292
 msgid "Preload images"
-msgstr "تحميل مسبق للصور"
+msgstr "Pra-muat imej-imej"
 
 #: includes/settings-page.php:296
 msgid "Allows for preloading of \"next\" and \"previous\" content in a group, after the current content has finished loading. Uncheck box to disable."
-msgstr "السماح للتحميل المسبق لأزرار \"التالي\" و\"السابق\" في المجموعات، بعد تحميل المحتوى الحالي. أزل المربع للتعطيل."
+msgstr "membenarkan pra-muat untuk \"berikutnya\" (next) dan \"sebelumnya\" (previous) di dalam kandungan kumpulan, sebaik sahaja kandungan semasa selesai dimuat turun. Nyah-tanda kotak pilihan untuk membubarkan tetapan"
 
 #: includes/settings-page.php:301
 msgid "Transition type"
-msgstr "نوع الانتقال بين الصور"
+msgstr "Jenis peralihan"
 
 #: includes/settings-page.php:313
 msgid "The transition type of the Colorbox. Can be set to \"elastic\", \"fade\", or \"none\""
-msgstr "يمكنك ضبط إعدادات الانتقال بين الصور لصندوق عرض الشرائح إلى: تمدد، تضاءل، أو بدون تأثير"
+msgstr "Jenis peralihan Colorbox. Boleh ditetapkan kepada \"anjal\" (elastic), \"pudar\" (fade) atau \"tiada\""
 
 #: includes/settings-page.php:318
 msgid "Transition speed"
-msgstr "سرعة الانتقال بين الصور"
+msgstr "Kitaran peralihan"
 
 #: includes/settings-page.php:322
 msgid "Sets the speed of the \"fade\" and \"elastic\" transitions, in milliseconds"
-msgstr "حدد سرعة نوع الانتقال \"تمدد، تضاءل، بدون تأثير\" بالميلي ثانية"
+msgstr "Menetapkan kitaran peralihan \"pudar\" dan \"anjal\", di dalam nilai milisaat"
 
 #: includes/settings-page.php:327
 msgid "Opacity"
-msgstr "شفافية الخلفية"
+msgstr "Kelegapan"
 
 #: includes/settings-page.php:331
 msgid "The overlay opacity level. Range: 0 to 1"
-msgstr "مستوى شفافية الخلفية. المدى: من 0 إلى 1"
+msgstr "Kelegapan/kekaburan lapisan telus. Julat: 0 hingga 1"
 
 #: includes/settings-page.php:336
 msgid "Automate hiding of flash objects"
-msgstr "أتمتة إخفاء عناصر الفلاش"
+msgstr "Auto-sorok objek flash"
 
 #: includes/settings-page.php:340
 msgid "Automatically hide embeded flash objects behind the Colorbox layer. Done by setting the wmode to transparent."
-msgstr "قم بإخفاء عناصر الفلاش المدمجة خلف طبقة صندوق عرض الشرائح. يتم ذلك عن طريق جعل إعدادات wmode شفافة."
+msgstr "Sorok secara auto objek flash yang menempel di sebalik lapisan Colorbox. Diuruskan dengan menetapkan \"wmode\" kepada \"transparent\""
 
 #: includes/settings-page.php:345
 msgid "Disable warning"
-msgstr "تعطيل التحذير"
+msgstr "Abai amaran"
 
 #: includes/settings-page.php:349
 msgid "Disables the warning that is displayed if the plugin is activated but the auto-colorbox feature for all images is turned off."
-msgstr "تعطيل التحذير الذي يعرض في الصفحة الرئيسية للوحة تحكم الموقع عند تفعيل الإضافة و عدم تفعيل البرنامج ليعمل على جميع الصور تلقائياً."
+msgstr "Mengabaikan amaran yang muncul sekiranya palam (plugin) diaktifkan tetapi ciri-ciri auto-colorbox untuk semua imej tidak terpilih"
 
 #: includes/settings-page.php:355
 msgid "Save Changes"
-msgstr "حفظ التغييرات"
+msgstr "Simpan Ubahsuai"
 
 #: includes/settings-page.php:364
 #: includes/settings-page.php:373
 msgid "Delete Settings"
-msgstr "حذف الإعدادات"
+msgstr "Bubar Tetapan"
 
 #: includes/settings-page.php:367
 msgid "Check the box and click this button to delete settings of this plugin."
-msgstr "ضع علامة في المربع واضغط على زر حذف الإعدادات ليتم حذف إعدادات البرنامج."
+msgstr "Tanda pada kotak pilihan dan klik butang untuk bubar tetapan palam ini"
 
 #: includes/settings-page.php:383
 msgid "Donate"
-msgstr "تبرع"
+msgstr "Sumbangan"
 
 #: includes/settings-page.php:397
 msgid "If you would like to make a small (or large) contribution towards future development please consider making a donation."
-msgstr "إذا كنت ترغب بالمساهمة في تطوير البرنامج سواءً كانت مساهمتك (صغيرة أو كبيرة)، فنرجو منك أن تقوم بالتبرع."
+msgstr "Sekiranya anda ingin hulurkan sedikit (atau banyak) sumbangan demi pembangunan di masa mendatang silalah membuat sumbangan "
 
 #: includes/settings-page.php:406
 msgid "Translation"
-msgstr "معلومات عن الترجمة"
+msgstr "Alihbahasa"
 
 #: includes/settings-page.php:409
 msgid "The english translation was done by <a href=\"http://www.techotronic.de\">Arne Franken</a>."
-msgstr "تمت الترجمة للغة العربية بواسطة: <a href=\"http://www.photokeens.com\">مضر صوص</a>."
+msgstr "Alihbahasa melayu telah disiapkan oleh <a href=\"http://www.inisahaini.com\">Saha-ini Ahmad Safian</a>."
 
 #~ msgid "maxWidth"
 #~ msgstr "Maximum width of an image"
