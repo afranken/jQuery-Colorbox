@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jQuery-Colorbox-Русская-версия\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-04 00:10+0100\n"
-"PO-Revision-Date: 2010-05-04 00:10+0100\n"
+"POT-Creation-Date: 2010-06-17 00:02+0100\n"
+"PO-Revision-Date: 2010-06-17 00:02+0100\n"
 "Last-Translator: \n"
 "Language-Team: Drive2Life <info@drive2life.ru>\n"
 "MIME-Version: 1.0\n"
@@ -15,356 +15,422 @@ msgstr ""
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: jquery-colorbox.php:110
+#: jquery-colorbox.php:99
 msgid "Theme #1"
 msgstr "Тема #1"
 
-#: jquery-colorbox.php:111
+#: jquery-colorbox.php:100
 msgid "Theme #2"
 msgstr "Тема #2"
 
-#: jquery-colorbox.php:112
+#: jquery-colorbox.php:101
 msgid "Theme #3"
 msgstr "Тема #3"
 
-#: jquery-colorbox.php:113
+#: jquery-colorbox.php:102
 msgid "Theme #4"
 msgstr "Тема #4"
 
-#: jquery-colorbox.php:114
+#: jquery-colorbox.php:103
 msgid "Theme #5"
 msgstr "Тема #5"
 
-#: jquery-colorbox.php:115
+#: jquery-colorbox.php:104
 msgid "Theme #6"
 msgstr "Тема #6"
 
-#: jquery-colorbox.php:116
+#: jquery-colorbox.php:105
 msgid "Theme #7"
 msgstr "Тема #7"
 
-#: jquery-colorbox.php:117
+#: jquery-colorbox.php:106
 msgid "Theme #8"
 msgstr "Тема #8"
 
-#: jquery-colorbox.php:118
+#: jquery-colorbox.php:107
 msgid "Theme #9"
 msgstr "Тема #9"
 
-#: jquery-colorbox.php:119
+#: jquery-colorbox.php:108
 msgid "Theme #10"
 msgstr "Тема #10"
 
-#: jquery-colorbox.php:120
+#: jquery-colorbox.php:109
 msgid "Theme #11"
 msgstr "Тема #11"
 
-#: jquery-colorbox.php:124
+#: jquery-colorbox.php:115
 msgid "Theme #12"
 msgstr "Тема #12"
 
-#: jquery-colorbox.php:125
+#: jquery-colorbox.php:116
 msgid "Theme #13"
 msgstr "Тема #13"
 
-#: jquery-colorbox.php:126
+#: jquery-colorbox.php:117
 msgid "Theme #14"
 msgstr "Тема #14"
 
-#: jquery-colorbox.php:127
+#: jquery-colorbox.php:118
 msgid "Theme #15"
 msgstr "Тема #15"
 
-#: jquery-colorbox.php:132
+#: jquery-colorbox.php:123
 msgid "percent"
 msgstr "процентов"
 
-#: jquery-colorbox.php:133
+#: jquery-colorbox.php:124
 msgid "pixels"
 msgstr "пикселей"
 
-#: jquery-colorbox.php:138
+#: jquery-colorbox.php:129
 msgid "elastic"
 msgstr "гибкий"
 
-#: jquery-colorbox.php:139
+#: jquery-colorbox.php:130
 msgid "fade"
 msgstr "затухание"
 
-#: jquery-colorbox.php:140
+#: jquery-colorbox.php:131
 msgid "none"
 msgstr "отсутствует"
 
-#: jquery-colorbox.php:177
+#: jquery-colorbox.php:172
 msgid "Using"
 msgstr ""
 
-#: jquery-colorbox.php:274
-#: includes/settings-page.php:101
+#: jquery-colorbox.php:269
+#: includes/settings-page.php:103
 msgid "Settings"
 msgstr "Настройки"
 
-#: jquery-colorbox.php:335
+#: jquery-colorbox.php:330
 #, php-format
 msgid "Successfully updated %1$s settings."
 msgstr "Удачно обновлены настройки %1$s"
 
-#: jquery-colorbox.php:337
+#: jquery-colorbox.php:332
 #, php-format
 msgid "%1$s settings were successfully deleted."
 msgstr "Настройки %1$s были удачно удалены"
 
-#: jquery-colorbox.php:378
+#: jquery-colorbox.php:373
 msgid "needs attention: the plugin is not activated to work for all images."
 msgstr "Внимание: плагин не настроен на работу со всеми изображениями блога (можно изменить в настройках плагина)."
 
-#: jquery-colorbox.php:439
+#: jquery-colorbox.php:434
 msgid "Did not update settings, you do not have the necessary rights."
 msgstr "Настройки не обновлены. У вас нет достаточных прав."
 
-#: jquery-colorbox.php:486
+#: jquery-colorbox.php:481
 #, php-format
 msgid "Did not delete %1$s settings. Either you dont have the nececssary rights or you didnt check the checkbox."
 msgstr "%1$s не удален. У вас нет достаточных прав."
 
-#: includes/colorbox-javascript.php:53
+#: includes/colorbox-javascript.php:54
 msgid "close"
 msgstr "Закрыть"
 
-#: includes/colorbox-javascript.php:54
+#: includes/colorbox-javascript.php:55
 msgid "next"
 msgstr "След."
 
-#: includes/colorbox-javascript.php:55
+#: includes/colorbox-javascript.php:56
 msgid "previous"
 msgstr "Пред."
 
-#: includes/colorbox-javascript.php:56
+#: includes/colorbox-javascript.php:57
 msgid "start slideshow"
 msgstr "Запустить слайдшоу"
 
-#: includes/colorbox-javascript.php:57
+#: includes/colorbox-javascript.php:58
 msgid "stop slideshow"
 msgstr "Остановить слайдшоу"
 
-#: includes/colorbox-javascript.php:58
+#: includes/colorbox-javascript.php:59
 msgid "{current} of {total} images"
 msgstr "{current} из {total} изображений"
 
-#: includes/settings-page.php:94
+#: includes/settings-page.php:95
 #, php-format
 msgid "%1$s Settings"
 msgstr "Настройки %1$s"
 
-#: includes/settings-page.php:110
+#: includes/settings-page.php:112
 msgid "Theme"
 msgstr "Тема"
 
-#: includes/settings-page.php:122
+#: includes/settings-page.php:124
 msgid "Select the theme you want to use on your blog."
 msgstr "Выберите тему, которую хотите использовать на вашем блоге."
 
-#: includes/settings-page.php:127
+#: includes/settings-page.php:129
 msgid "Theme screenshot"
 msgstr "Скриншот темы"
 
-#: includes/settings-page.php:137
+#: includes/settings-page.php:139
 #, php-format
 msgid "Automate %1$s for all images"
 msgstr "Автоматически применять %1$s для всех изображений"
 
-#: includes/settings-page.php:141
+#: includes/settings-page.php:143
 msgid "Automatically add colorbox-class to images in posts and pages. Also adds colorbox-class to galleries. Images in one page or post are grouped automatically."
 msgstr "Автоматически применять стиль ColorBox к изображением в постах и на страницах. Также применит ColorBox к галереям. Изображения на странице или в посте группируются автоматически."
 
-#: includes/settings-page.php:146
+#: includes/settings-page.php:148
 #, php-format
 msgid "Automate %1$s for images in WordPress galleries"
 msgstr "Автоматически применять %1$s для изображений внутри галереи Wordpress"
 
-#: includes/settings-page.php:150
+#: includes/settings-page.php:152
 msgid "Automatically add colorbox-class to images in WordPress galleries, but nowhere else. Images in one page or post are grouped automatically."
 msgstr "Автоматически применять ColorBox к изображениям внутри галерей, но нигде больше.  Изображения на странице или в посте группируются автоматически."
 
-#: includes/settings-page.php:155
+#: includes/settings-page.php:157
 msgid "Add Slideshow to groups"
 msgstr "Добавить Слайдшоу к группам."
 
-#: includes/settings-page.php:159
+#: includes/settings-page.php:161
 #, php-format
 msgid "Add Slideshow functionality for %1$s Groups"
 msgstr "Добавить функционал Слайдшоу %1$s к группам."
 
-#: includes/settings-page.php:164
+#: includes/settings-page.php:166
 msgid "Start Slideshow automatically"
 msgstr "Запускать Слайдшоу автоматически"
 
-#: includes/settings-page.php:168
+#: includes/settings-page.php:170
 #, php-format
 msgid "Start Slideshow automatically if slideshow functionality is added to %1$s Groups"
 msgstr "Запускать Слайдшоу автоматически, если функционал Слайдшоу %1$s добавлен к группам"
 
-#: includes/settings-page.php:173
+#: includes/settings-page.php:175
 msgid "Speed of the slideshow"
 msgstr "Скорость Слайдшоу"
 
-#: includes/settings-page.php:176
-#: includes/settings-page.php:321
+#: includes/settings-page.php:178
+#: includes/settings-page.php:341
 msgid "milliseconds"
 msgstr "милисекунд"
 
-#: includes/settings-page.php:177
+#: includes/settings-page.php:179
 msgid "Sets the speed of the slideshow, in milliseconds"
 msgstr "Устанавливает скорость Слайдшоу в милисекундах"
 
-#: includes/settings-page.php:182
+#: includes/settings-page.php:184
+msgid "Disable loop"
+msgstr ""
+
+#: includes/settings-page.php:188
+msgid "Disable looping through image groups"
+msgstr ""
+
+#: includes/settings-page.php:193
+msgid "Disable keys"
+msgstr ""
+
+#: includes/settings-page.php:197
+msgid "Disable ESC to close Colorbox and arrow keys to go to next and previous images"
+msgstr ""
+
+#: includes/settings-page.php:202
 msgid "Maximum width of an image"
 msgstr "Максимальная ширина изображения"
 
-#: includes/settings-page.php:186
-#: includes/settings-page.php:232
+#: includes/settings-page.php:206
+#: includes/settings-page.php:252
 msgid "Do not set width"
 msgstr "Не устанавливать ширину"
 
-#: includes/settings-page.php:189
+#: includes/settings-page.php:209
 msgid "Set maximum width of an image"
 msgstr "Установите максимальную ширину изображения"
 
-#: includes/settings-page.php:200
+#: includes/settings-page.php:220
 msgid "Set the maximum width of the image in the Colorbox in relation to the browser window in percent or pixels. If maximum width is not set, image is as wide as the Colorbox"
 msgstr "Установите максимальную щирину изображения ColorBox в соотношении с окном браузера в процентах или пикселях. Если ширина не установлена, изображение будет на всю ширину ColorBox"
 
-#: includes/settings-page.php:205
+#: includes/settings-page.php:225
 msgid "Maximum height of an image"
 msgstr "Максимальная высота изображения"
 
-#: includes/settings-page.php:209
-#: includes/settings-page.php:255
+#: includes/settings-page.php:229
+#: includes/settings-page.php:275
 msgid "Do not set height"
 msgstr "Не устанавливать высоту"
 
-#: includes/settings-page.php:212
+#: includes/settings-page.php:232
 msgid "Set maximum height of an image"
 msgstr "Установить максимальную высоту изображения"
 
-#: includes/settings-page.php:223
+#: includes/settings-page.php:243
 msgid "Set the maximum height of the image in the Colorbox in relation to the browser window to a value in percent or pixels. If maximum height is not set, the image is as high as the Colorbox"
 msgstr "Установите максимальную высоту изображения ColorBox в соотношении с окном браузера в процентах или пикселях. Если высота не установлена, изображение будет на всю высоту ColorBox"
 
-#: includes/settings-page.php:228
+#: includes/settings-page.php:248
 msgid "Maximum width of the Colorbox"
 msgstr "Максимальная ширина ColorBox"
 
-#: includes/settings-page.php:235
+#: includes/settings-page.php:255
 msgid "Set width of the Colorbox"
 msgstr "Установите ширину ColorBox"
 
-#: includes/settings-page.php:246
+#: includes/settings-page.php:266
 msgid "Set the maximum width of the Colorbox itself in relation to the browser window to a value between in percent or pixels. If the image is bigger than the colorbox, scrollbars are displayed. If width is not set, the Colorbox will be as wide as the picture in it"
 msgstr "Установите максимальную ширину ColorBox в соотношении с окном браузера в процентах или пикселях. Если изображение больше заданного размера будут показаны полосы прокрутки. Если ширина не установлена, ColorBox будет подстраиваться под изображение."
 
-#: includes/settings-page.php:251
+#: includes/settings-page.php:271
 msgid "Maximum height of the Colorbox"
 msgstr "Максимальная высота ColorBox"
 
-#: includes/settings-page.php:258
+#: includes/settings-page.php:278
 msgid "Set height of the Colorbox"
 msgstr "Установите высоту ColorBox"
 
-#: includes/settings-page.php:269
+#: includes/settings-page.php:289
 msgid "Set the maximum height of the Colorbox itself in relation to the browser window to a value between in percent or pixels. If the image is bigger than the colorbox, scrollbars are displayed. If height is not set, the Colorbox will be as high as the picture in it"
 msgstr "Установите максимальную высоту ColorBox в соотношении с окном браузера в процентах или пикселях. Если изображение больше заданного размера будут показаны полосы прокрутки. Если высота не установлена, ColorBox будет подстраиваться под изображение."
 
-#: includes/settings-page.php:274
+#: includes/settings-page.php:294
 msgid "Resize images"
 msgstr "Изменять размер изображения"
 
-#: includes/settings-page.php:278
+#: includes/settings-page.php:298
 msgid "If enabled and if maximum width of images, maximum height of images, width of the Colorbox, or height of the Colorbox have been defined, ColorBox will scale photos to fit within the those values"
 msgstr "Если включено и один из параметров не соответствует настрокам ширины и высоты, ColorBox автоматически скалирует изображение до необходимого размера"
 
-#: includes/settings-page.php:283
+#: includes/settings-page.php:303
 msgid "Close Colorbox on overlay click"
 msgstr "Закрывать ColorBox по клику на фоне ColorBox"
 
-#: includes/settings-page.php:287
+#: includes/settings-page.php:307
 msgid "If checked, enables closing ColorBox by clicking on the background overlay"
 msgstr "Если включено, ColorBox будет закрываться по клику на фоне ColorBox"
 
-#: includes/settings-page.php:292
+#: includes/settings-page.php:312
 msgid "Preload images"
 msgstr "Подгружать фотографии"
 
-#: includes/settings-page.php:296
+#: includes/settings-page.php:316
 msgid "Allows for preloading of \"next\" and \"previous\" content in a group, after the current content has finished loading. Uncheck box to disable."
 msgstr "Подгружает следующую и предыдущую фотографии после загрузки текущей. Снимите галочку для отключения этой функции."
 
-#: includes/settings-page.php:301
+#: includes/settings-page.php:321
 msgid "Transition type"
 msgstr "Тип переходов"
 
-#: includes/settings-page.php:313
+#: includes/settings-page.php:333
 msgid "The transition type of the Colorbox. Can be set to \"elastic\", \"fade\", or \"none\""
 msgstr "Тип переходов ColorBox может быть установлен на \"гибкий\", \"затухание\", или \"отсутствует\""
 
-#: includes/settings-page.php:318
+#: includes/settings-page.php:338
 msgid "Transition speed"
 msgstr "Скорость переходов"
 
-#: includes/settings-page.php:322
+#: includes/settings-page.php:342
 msgid "Sets the speed of the \"fade\" and \"elastic\" transitions, in milliseconds"
 msgstr "Устанавливает скорость \"затухающего\" и \"гибкого\" переходов в милисекундах"
 
-#: includes/settings-page.php:327
+#: includes/settings-page.php:347
 msgid "Opacity"
 msgstr "Прозрачность"
 
-#: includes/settings-page.php:331
+#: includes/settings-page.php:351
 msgid "The overlay opacity level. Range: 0 to 1"
 msgstr "Прозрачность фона ColorBox. От 0 до 1"
 
-#: includes/settings-page.php:336
+#: includes/settings-page.php:356
+msgid "Make images draggable"
+msgstr ""
+
+#: includes/settings-page.php:360
+msgid "Make images draggable instead of scrollable"
+msgstr ""
+
+#: includes/settings-page.php:365
 msgid "Automate hiding of flash objects"
 msgstr "Автоматически прятать flash-объекты"
 
-#: includes/settings-page.php:340
-msgid "Automatically hide embeded flash objects behind the Colorbox layer. Done by setting the wmode to transparent."
+#: includes/settings-page.php:369
+#, fuzzy
+msgid "Automatically hide embeded flash objects behind the Colorbox layer."
 msgstr "Автоматически прячет flash-объекты за слоем ColorBox. Работает посредством переключения wmode в режим прозрачности."
 
-#: includes/settings-page.php:345
+#: includes/settings-page.php:374
 msgid "Disable warning"
 msgstr "Отключить предупреждения"
 
-#: includes/settings-page.php:349
+#: includes/settings-page.php:378
 msgid "Disables the warning that is displayed if the plugin is activated but the auto-colorbox feature for all images is turned off."
 msgstr "Отключает предупреждения, которые показываются, когда ColorBox активирован, но функция автоматической замены всех изображений отключена."
 
-#: includes/settings-page.php:355
+#: includes/settings-page.php:384
 msgid "Save Changes"
 msgstr "Сохранить настройки"
 
-#: includes/settings-page.php:364
-#: includes/settings-page.php:373
+#: includes/settings-page.php:393
+#: includes/settings-page.php:402
 msgid "Delete Settings"
 msgstr "Удалить настройки"
 
-#: includes/settings-page.php:367
+#: includes/settings-page.php:396
 msgid "Check the box and click this button to delete settings of this plugin."
 msgstr "Поставьте галочку и нажмите на кнопку, чтобы удалить все настройки ColorBox"
 
-#: includes/settings-page.php:383
+#: includes/settings-page.php:413
+msgid "Top donations"
+msgstr ""
+
+#: includes/settings-page.php:422
+msgid "Latest donations"
+msgstr ""
+
+#: includes/settings-page.php:431
 msgid "Donate"
 msgstr "Пожертвовать"
 
-#: includes/settings-page.php:397
+#: includes/settings-page.php:435
 msgid "If you would like to make a small (or large) contribution towards future development please consider making a donation."
 msgstr "Если вам понравился плагин и вы хотите помочь в разработке новых версий, пожалуйста, сделайте пожертвование."
 
-#: includes/settings-page.php:406
+#: includes/settings-page.php:440
+msgid "Techotronic Development Support"
+msgstr ""
+
+#: includes/settings-page.php:444
+msgid "Please enter the URL you'd like me to link to in the donors lists"
+msgstr ""
+
+#: includes/settings-page.php:446
+msgid "Return to Your Dashboard"
+msgstr ""
+
+#: includes/settings-page.php:450
+msgid "Select Preset Amount"
+msgstr ""
+
+#: includes/settings-page.php:458
+#: includes/settings-page.php:462
+msgid "USD"
+msgstr ""
+
+#: includes/settings-page.php:459
+msgid "Or"
+msgstr ""
+
+#: includes/settings-page.php:460
+msgid "Enter Custom Amount"
+msgstr ""
+
+#: includes/settings-page.php:464
+msgid "Submit"
+msgstr ""
+
+#: includes/settings-page.php:471
 msgid "Translation"
 msgstr "Перевод"
 
-#: includes/settings-page.php:409
+#: includes/settings-page.php:474
 msgid "The english translation was done by <a href=\"http://www.techotronic.de\">Arne Franken</a>."
 msgstr "Русский перевод сделан Osiriz'ом. Портал <a href=\"http://drive2life.ru\">Drive2Life.ru</a>."
 

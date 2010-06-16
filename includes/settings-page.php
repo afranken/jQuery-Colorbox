@@ -90,13 +90,15 @@
     //]]>
 </script>
 <div class="wrap">
+    <div>
     <?php screen_icon(); ?>
     <h2><?php printf(__('%1$s Settings', JQUERYCOLORBOX_TEXTDOMAIN), JQUERYCOLORBOX_NAME); ?></h2>
     <br class="clear"/>
 
     <?php settings_fields(JQUERYCOLORBOX_SETTINGSNAME); ?>
 
-    <div id="poststuff" class="ui-sortable meta-box-sortables">
+    <div class="postbox-container" style="width: 69%;">
+    <div id="poststuff">
         <div id="jquery-colorbox-settings" class="postbox">
             <h3 id="settings"><?php _e('Settings', JQUERYCOLORBOX_TEXTDOMAIN); ?></h3>
 
@@ -177,6 +179,24 @@
                         <br/><?php _e('Sets the speed of the slideshow, in milliseconds', JQUERYCOLORBOX_TEXTDOMAIN); ?>.
                     </td>
                 </tr>
+                <!--tr>
+                    <th scope="row">
+                        <label for="jquery-colorbox-disableLoop"><?php __('Disable loop', JQUERYCOLORBOX_TEXTDOMAIN); ?>:</label>
+                    </th>
+                    <td>
+                        <input type="checkbox" name="<?php //echo JQUERYCOLORBOX_SETTINGSNAME ?>[disableLoop]" id="jquery-colorbox-disableLoop" value="true" <?php //echo ($this->colorboxSettings['disableLoop']) ? 'checked="checked"' : '';?>/>
+                        <br/><?php __('Disable looping through image groups', JQUERYCOLORBOX_TEXTDOMAIN); ?>.
+                    </td>
+                </tr-->
+                <!--tr>
+                    <th scope="row">
+                        <label for="jquery-colorbox-disableKeys"><?php __('Disable keys', JQUERYCOLORBOX_TEXTDOMAIN); ?>:</label>
+                    </th>
+                    <td>
+                        <input type="checkbox" name="<?php //echo JQUERYCOLORBOX_SETTINGSNAME ?>[disableKeys]" id="jquery-colorbox-disableKeys" value="true" <?php //echo ($this->colorboxSettings['disableKeys']) ? 'checked="checked"' : '';?>/>
+                        <br/><?php __('Disable ESC to close Colorbox and arrow keys to go to next and previous images', JQUERYCOLORBOX_TEXTDOMAIN); ?>.
+                    </td>
+                </tr-->
                 <tr>
                     <th scope="row">
                         <label for="jquery-colorbox-maxWidthValue"><?php _e('Maximum width of an image', JQUERYCOLORBOX_TEXTDOMAIN); ?>:</label>
@@ -331,13 +351,22 @@
                         <br/><?php _e('The overlay opacity level. Range: 0 to 1', JQUERYCOLORBOX_TEXTDOMAIN); ?>.
                     </td>
                 </tr>
+                <!--tr>
+                    <th scope="row">
+                        <label for="jquery-colorbox-draggable"><?php __('Make images draggable', JQUERYCOLORBOX_TEXTDOMAIN); ?>:</label>
+                    </th>
+                    <td>
+                        <input type="checkbox" name="<?php //echo JQUERYCOLORBOX_SETTINGSNAME ?>[draggable]" id="jquery-colorbox-draggable" value="true" <?php //echo ($this->colorboxSettings['draggable']) ? 'checked="checked"' : '';?>/>
+                        <br/><?php __('Make images draggable instead of scrollable', JQUERYCOLORBOX_TEXTDOMAIN); ?>.
+                    </td>
+                </tr-->
                 <tr>
                     <th scope="row">
                         <label for="jquery-colorbox-autoHideFlash"><?php printf(__('Automate hiding of flash objects', JQUERYCOLORBOX_TEXTDOMAIN), JQUERYCOLORBOX_NAME); ?>:</label>
                     </th>
                     <td>
                         <input type="checkbox" name="<?php echo JQUERYCOLORBOX_SETTINGSNAME ?>[autoHideFlash]" id="jquery-colorbox-autoHideFlash" value="true" <?php echo ($this->colorboxSettings['autoHideFlash']) ? 'checked="checked"' : '';?>/>
-                        <br/><?php _e('Automatically hide embeded flash objects behind the Colorbox layer. Done by setting the wmode to transparent.', JQUERYCOLORBOX_TEXTDOMAIN); ?>
+                        <br/><?php _e('Automatically hide embeded flash objects behind the Colorbox layer.', JQUERYCOLORBOX_TEXTDOMAIN); ?>
                     </td>
                 </tr>
                 <tr>
@@ -359,7 +388,7 @@
         </div>
     </div>
 
-    <div id="poststuff" class="ui-sortable meta-box-sortables">
+    <div id="poststuff">
         <div id="jquery-colorbox-delete_settings" class="postbox">
             <h3 id="delete_options"><?php _e('Delete Settings', JQUERYCOLORBOX_TEXTDOMAIN) ?></h3>
 
@@ -377,31 +406,67 @@
             </div>
         </div>
     </div>
+    </div>
+    <div class="postbox-container" style="width: 29%;">
+    <div id="poststuff">
+        <div id="jquery-colorbox-topdonations" class="postbox">
+            <h3 id="topdonations"><?php _e('Top donations', JQUERYCOLORBOX_TEXTDOMAIN) ?></h3>
 
-    <div id="poststuff" class="ui-sortable meta-box-sortables">
+            <div class="inside">
+                <?php echo $this->getRemoteContent(JQUERYCOLORBOX_TOPDONATEURL); ?>
+            </div>
+        </div>
+    </div>
+    <div id="poststuff">
+        <div id="jquery-colorbox-latestdonations" class="postbox">
+            <h3 id="latestdonations"><?php _e('Latest donations', JQUERYCOLORBOX_TEXTDOMAIN) ?></h3>
+
+            <div class="inside">
+                <?php echo $this->getRemoteContent(JQUERYCOLORBOX_LATESTDONATEURL); ?>
+            </div>
+        </div>
+    </div>
+    <div id="poststuff">
         <div id="jquery-colorbox-donate" class="postbox">
             <h3 id="donate"><?php _e('Donate', JQUERYCOLORBOX_TEXTDOMAIN) ?></h3>
 
             <div class="inside">
                 <p>
-                    <span style="float: left;">
-                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                            <input type="hidden" name="cmd" value="_s-xclick">
-                            <input type="hidden" name="hosted_button_id" value="11235030">
-                            <input type="image" src="https://www.paypal.com/en_GB/i/btn/btn_donate_SM.gif" name="submit" alt="PayPal - The safer, easier way to pay online.">
-                            <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1">
-                        </form>
-                    </span>
+                    <?php _e('If you would like to make a small (or large) contribution towards future development please consider making a donation.', JQUERYCOLORBOX_TEXTDOMAIN) ?>
                 </p>
-                <p>
-                <?php _e('If you would like to make a small (or large) contribution towards future development please consider making a donation.', JQUERYCOLORBOX_TEXTDOMAIN) ?>
-                    <br/>&copy; Copyright 2009 - <?php echo date("Y"); ?> <a href="http://www.techotronic.de">Arne Franken</a>
-                </p>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_xclick" />
+                    <input type="hidden" name="business" value="G75G3Z6PQWXXQ" />
+                    <input type="hidden" name="item_name" value="<?php _e('Techotronic Development Support' , JQUERYCOLORBOX_TEXTDOMAIN); ?>" />
+                    <input type="hidden" name="item_number" value="jQuery Colorbox"/>
+                    <input type="hidden" name="no_shipping" value="0"/>
+                    <input type="hidden" name="no_note" value="0"/>
+                    <input type="hidden" name="cn" value="<?php _e("Please enter the URL you'd like me to link to in the donors lists", JQUERYCOLORBOX_TEXTDOMAIN); ?>." />
+                    <input type="hidden" name="return" value="<?php $this->getReturnLocation(); ?>" />
+                    <input type="hidden" name="cbt" value="<?php _e('Return to Your Dashboard' , JQUERYCOLORBOX_TEXTDOMAIN); ?>" />
+                    <input type="hidden" name="currency_code" value="USD"/>
+                    <input type="hidden" name="lc" value="US"/>
+                    <input type="hidden" name="bn" value="PP-DonationsBF"/>
+                    <label for="preset-amounts"><?php _e('Select Preset Amount', JQUERYCOLORBOX_TEXTDOMAIN); echo ": "; ?></label>
+                    <select name="amount" id="preset-amounts">
+                        <option value="10">10</option>
+                        <option value="20" selected>20</option>
+                        <option value="30">30</option>
+                        <option value="40">40</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                    </select><span><?php _e('USD',JQUERYCOLORBOX_TEXTDOMAIN) ?></span>
+                    <br /><br /><?php _e('Or', JQUERYCOLORBOX_TEXTDOMAIN); ?><br /><br />
+                    <label for="custom-amounts"><?php _e('Enter Custom Amount', JQUERYCOLORBOX_TEXTDOMAIN); echo ": "; ?></label>
+                    <input type="text" name="amount" size="4" id="custom-amounts"/>
+                    <span><?php _e('USD',JQUERYCOLORBOX_TEXTDOMAIN) ?></span>
+                    <br /><br />
+                    <input type="submit" value="<?php _e('Submit',JQUERYCOLORBOX_TEXTDOMAIN) ?>" class="button-secondary"/>
+                </form>
             </div>
         </div>
     </div>
-
-    <div id="poststuff" class="ui-sortable meta-box-sortables">
+    <div id="poststuff">
         <div id="jquery-colorbox-translation" class="postbox">
             <h3 id="translation"><?php _e('Translation', JQUERYCOLORBOX_TEXTDOMAIN) ?></h3>
 
@@ -409,5 +474,12 @@
                 <p><?php _e('The english translation was done by <a href="http://www.techotronic.de">Arne Franken</a>.', JQUERYCOLORBOX_TEXTDOMAIN); ?></p>
             </div>
         </div>
+    </div>
+    </div>
+    </div>
+    <div class="clear">
+        <p>
+            <br/>&copy; Copyright 2009 - <?php echo date("Y"); ?> <a href="http://www.techotronic.de">Arne Franken</a>
+        </p>
     </div>
 </div>
