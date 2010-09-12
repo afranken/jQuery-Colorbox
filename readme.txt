@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: techotronic
 Donate link: http://www.techotronic.de/donate/
-Tags: jquery, colorbox, lightbox, images, pictures, photos, gallery, javascript, overlay, nextgen gallery, nextgen-gallery, image, picture, photo, media, slideshow, ngg
+Tags: jquery, colorbox, lightbox, images, pictures, photos, gallery, javascript, overlay, nextgen gallery, nextgen-gallery, image, picture, photo, media, slideshow, ngg, mu
 Requires at least: 2.8
 Tested up to: 3.0
-Stable tag: 3.3
+Stable tag: 3.6
 
 Adds Colorbox/Lightbox functionality to images, grouped by post or page. Works for WordPress and NextGEN galleries. Comes with different themes.
 
@@ -30,16 +30,21 @@ Localization
 * Arabic (ar) by <a href="http://www.photokeens.com">Modar Soos</a>
 * Belorussian (be_BY) <a href="http://www.pc.de/">Marcis G.</a>
 * Bosnian (bs_BA) by <a href="http://www.vjucon.com/">Vedran Jurincic</a>
+* Dutch (nl_NL) by <a href="http://nl.linkedin.com/pub/richard-laak/b/b21/672">Richard van Laak</a>
 * English (en_EN) by <a href="http://www.techotronic.de/">Arne Franken</a>
 * French (fr_FR) by <a href="http://www.tolingo.com/">Tolingo Translations</a>
 * German (de_DE) by <a href="http://www.techotronic.de/">Arne Franken</a>
+* Hebrew (he_IL) by <a href="http://www.TommyGordon.co.il">Tommy Gordon</a>
+* Italian (it_IT) by <a href="http://erkinson.altervista.org/">Erkinson</a>
+* Malay (ms_MY) by <a href="http://www.inisahaini.com">Saha-ini Ahmad Safian</a>
 * Portuguese (pt_BR) by <a href="http://twitter.com/gervasioantonio">Gervásio Antônio</a>
 * Russian (ru_RU) by <a href="http://drive2life.ru">Drive2Life.ru</a>
 * Turkish (tr_TR) by <a href="http://www.serhatyolacan.com/">Serhat Yolaçan</a>
+* Ukrainian (uk) by <a href="http://www.politcult.com/">Yuri Kryzhanivskyi</a>
 
 Is your native language missing? Translating the plugin is easy if you understand english and are fluent in another language. Just send me an email.
 
-Includes <a href="http://colorpowered.com/colorbox/">ColorBox</a> 1.3.6 jQuery plugin from Jack Moore.
+Includes <a href="http://colorpowered.com/colorbox/">ColorBox</a> 1.3.9 jQuery plugin from Jack Moore.
 Colorbox is licensed under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>.
 jQuery Colorbox uses the jQuery library version 1.3.2 bundled with Wordpress. Works with jQuery 1.4.2 too.
 The picture I used for the screenshots was designed by <a href="http://wallpapers.vintage.it/">Davide Vicariotto</a>
@@ -73,16 +78,6 @@ Make sure that your theme uses the `wp_head();` function in the HTML head-tag.
 I have seen problems where other plugins include their own versions of the jQuery library my plugin uses.
 Chances are that the other jQuery library is loaded after the one that I load. If that happens, the colorbox features are overwritten.
 
-Maybe the images you want jQuery Colorbox to work on are added by a plugin and the images are added after jQuery Colorbox manipulates the HTML when rendering your blog.
-
-* I have installed and activated (or updated) jQuery Colorbox, but it doesn't show up when I click on a thumbnail in my blog. Is the plugin broken?
-
-Since version 2.0, jQuery Colorbox' automatic behaviour can be switched on and off in the settings. That way, you can apply the Colorbox functionality manually to single images.
-
-The default ist OFF.
-
-New in 3.0: If the plugin is activated, but the auto Colorbox feature is turned off, a warning is displayed.
-
 * Upon activation of the plugin I see the following error `Parse error: syntax error, unexpected T_STATIC, expecting T_OLD_FUNCTION or T_FUNCTION or T_VAR or '}' in /path/to/jquery-colorbox.php on line XX`
 
 jQuery Colorbox needs PHP5 to work. You see this error message because you are using PHP4.
@@ -95,7 +90,7 @@ This CSS class is then passed to the colorbox JavaScript.
 
 * How do I exclude an image from Colorbox in a page or post?
 
-Add the CSS class "colorbox-off" to the image you want to exclude.
+Add the CSS class "colorbox-off" to the image or to the link to the big sized image you want to exclude.
 jQuery Colorbox does not add the colorbox effect to images that have the CSS class "colorbox-off".
 
 * How does jQuery Colorbox group images?
@@ -107,7 +102,11 @@ For all images in a post or page, the same CSS class is added. All images with t
 This is a Flash issue, but relatively easy to solve. Just activate the automatic hiding of embedded flash objects on the settings page.
 
 Adobe described on these sites what the problem is and how to fix it manually:
+
+
 <a href="http://kb2.adobe.com/cps/155/tn_15523.html">Adobe Knowledgebase 1</a>
+
+
 <a href="http://kb2.adobe.com/cps/142/tn_14201.html">Adobe Knowledgebase 2</a>
 
 * I have a problem with the Colorbox or want to style it my own way. Can you help?
@@ -165,8 +164,22 @@ Feel free to write an email to blog [at] techotronic.de or open a thread at <a h
 I'll include new FAQs in every new version. Promise.
 
 == Changelog ==
-= 3.4 (2010-) =
-* NEW: Colorbox is not applied to image links that have the class "colorbox-off"
+= 3.6 (2010-09-12) =
+* CHANGE: Update of Colorbox library to version 1.3.9 which fixes lots of bugs. Most notably the "0 by 0" bug in Chrome.
+
+= 3.5 (2010-06-16) =
+* NEW: Ukrainian translation by <a href="http://www.politcult.com/">Yuri Kryzhanivskyi</a>
+* NEW: Italian translation by <a href="http://erkinson.altervista.org/">Erkinson</a>
+* NEW: Hebrew translation by <a href="http://www.TommyGordon.co.il">Tommy Gordon</a>
+* BUGFIX: URLs are now generated correctly for WP-MU installations
+* NEW: Added latest donations and top donations to settings page
+
+= 3.4 (2010-05-24) =
+* NEW: Colorbox is not applied to image links that have the class "colorbox-off" any more. Useful for NextGEN users.
+* NEW: Dutch translation by <a href="http://nl.linkedin.com/pub/richard-laak/b/b21/672">Richard van Laak</a>
+* NEW: Malay translation by <a href="http://www.inisahaini.com">Saha-ini Ahmad Safian</a>
+* CHANGE: Added CSS id "colorboxLink" to link in Meta container.
+* CHANGE: <a href="http://www.photokeens.com">Modar Soos</a> updated the Arabic translation
 
 = 3.3 (2010-05-05) =
 * NEW: Belorussian translation by <a href="http://www.pc.de/">Marcis G.</a>

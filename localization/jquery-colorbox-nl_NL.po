@@ -2,97 +2,98 @@ msgid ""
 msgstr ""
 "Project-Id-Version: jQuery-Colorbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-17 00:01+0100\n"
-"PO-Revision-Date: 2010-06-17 00:01+0100\n"
+"POT-Creation-Date: 2010-06-17 00:02+0100\n"
+"PO-Revision-Date: 2010-06-17 00:02+0100\n"
 "Last-Translator: \n"
-"Language-Team: \n"
+"Language-Team: Techotronic <blog@techotronic.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Bosnian\n"
+"X-Poedit-Language: Dutch\n"
 "X-Poedit-KeywordsList: _e;__\n"
 "X-Poedit-Basepath: ..\n"
+"X-Poedit-Country: NETHERLANDS\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: jquery-colorbox.php:99
 msgid "Theme #1"
-msgstr "Tema #1"
+msgstr "Thema #1"
 
 #: jquery-colorbox.php:100
 msgid "Theme #2"
-msgstr "Tema #2"
+msgstr "Thema #2"
 
 #: jquery-colorbox.php:101
 msgid "Theme #3"
-msgstr "Tema #3"
+msgstr "Thema #3"
 
 #: jquery-colorbox.php:102
 msgid "Theme #4"
-msgstr "Tema #4"
+msgstr "Thema #4"
 
 #: jquery-colorbox.php:103
 msgid "Theme #5"
-msgstr "Tema #5"
+msgstr "Thema #5"
 
 #: jquery-colorbox.php:104
 msgid "Theme #6"
-msgstr "Tema #6"
+msgstr "Thema #6"
 
 #: jquery-colorbox.php:105
 msgid "Theme #7"
-msgstr "Tema #7"
+msgstr "Thema #7"
 
 #: jquery-colorbox.php:106
 msgid "Theme #8"
-msgstr "Tema #8"
+msgstr "Thema #8"
 
 #: jquery-colorbox.php:107
 msgid "Theme #9"
-msgstr "Tema #9"
+msgstr "Thema #9"
 
 #: jquery-colorbox.php:108
 msgid "Theme #10"
-msgstr "Tema #10"
+msgstr "Thema #10"
 
 #: jquery-colorbox.php:109
 msgid "Theme #11"
-msgstr "Tema #11"
+msgstr "Thema #11"
 
 #: jquery-colorbox.php:115
 msgid "Theme #12"
-msgstr "Tema #12"
+msgstr "Thema #12"
 
 #: jquery-colorbox.php:116
 msgid "Theme #13"
-msgstr "Tema #13"
+msgstr "Thema #13"
 
 #: jquery-colorbox.php:117
 msgid "Theme #14"
-msgstr "Tema #14"
+msgstr "Thema #14"
 
 #: jquery-colorbox.php:118
 msgid "Theme #15"
-msgstr "Tema #15"
+msgstr "Thema #15"
 
 #: jquery-colorbox.php:123
 msgid "percent"
-msgstr "procenat"
+msgstr "procent"
 
 #: jquery-colorbox.php:124
 msgid "pixels"
-msgstr "piksel"
+msgstr "pixels"
 
 #: jquery-colorbox.php:129
 msgid "elastic"
-msgstr "elastično"
+msgstr "elastisch"
 
 #: jquery-colorbox.php:130
 msgid "fade"
-msgstr "izblijediti"
+msgstr "vervagen"
 
 #: jquery-colorbox.php:131
 msgid "none"
-msgstr "bez efekta"
+msgstr "geen"
 
 #: jquery-colorbox.php:172
 msgid "Using"
@@ -101,120 +102,120 @@ msgstr ""
 #: jquery-colorbox.php:269
 #: includes/settings-page.php:103
 msgid "Settings"
-msgstr "Opcije"
+msgstr "Instellingen"
 
 #: jquery-colorbox.php:330
 #, php-format
 msgid "Successfully updated %1$s settings."
-msgstr "Uspješno ažurirano %1$s promjena."
+msgstr "Succesvol %1$s instellingen geupdate."
 
 #: jquery-colorbox.php:332
 #, php-format
 msgid "%1$s settings were successfully deleted."
-msgstr "%1$s opcije su uspiješno izbrisane."
+msgstr "%1$s instellingen zijn succesvol verwijderd."
 
 #: jquery-colorbox.php:373
 msgid "needs attention: the plugin is not activated to work for all images."
-msgstr "Pažnja "
+msgstr "aandacht vereist: de plugin is niet geactiveerd om alle afbeeldingen te tonen."
 
 #: jquery-colorbox.php:434
 msgid "Did not update settings, you do not have the necessary rights."
-msgstr "Opcije nisu ažurirane, nemaš potrebna ovlaštenja."
+msgstr "Er zijn geen instellingen geupdate, u bezit de benodigde rechten niet."
 
 #: jquery-colorbox.php:481
 #, php-format
 msgid "Did not delete %1$s settings. Either you dont have the nececssary rights or you didnt check the checkbox."
-msgstr " %1$s opcije nisu mogle biti izbrisane. Ili nemaš potrebna ovlaštenja ili si zaboravio da aktiviraš Checkbox."
+msgstr "%1$s instellingen zijn niet verwijderd. U bezit de benodigde rechten niet of de checkbox was niet aangevinkt."
 
 #: includes/colorbox-javascript.php:54
 msgid "close"
-msgstr "Zatvoriti"
+msgstr "sluiten"
 
 #: includes/colorbox-javascript.php:55
 msgid "next"
-msgstr "Naprijed"
+msgstr "volgende"
 
 #: includes/colorbox-javascript.php:56
 msgid "previous"
-msgstr "Nazad"
+msgstr "vorige"
 
 #: includes/colorbox-javascript.php:57
 msgid "start slideshow"
-msgstr "Pokreni slideshow"
+msgstr "start slideshow"
 
 #: includes/colorbox-javascript.php:58
 msgid "stop slideshow"
-msgstr "Zaustavi slideshow"
+msgstr "stop slideshow"
 
 #: includes/colorbox-javascript.php:59
 msgid "{current} of {total} images"
-msgstr "{current} od {total} slika"
+msgstr "{current} / {total}"
 
 #: includes/settings-page.php:95
 #, php-format
 msgid "%1$s Settings"
-msgstr "%1$s opcija"
+msgstr "%1$s Instellingen"
 
 #: includes/settings-page.php:112
 msgid "Theme"
-msgstr "Tema"
+msgstr "Thema"
 
 #: includes/settings-page.php:124
 msgid "Select the theme you want to use on your blog."
-msgstr "Izaberi temu za svoj blog"
+msgstr "Selecteer het te gebruiken thema voor op uw blog."
 
 #: includes/settings-page.php:129
 msgid "Theme screenshot"
-msgstr "Screenshot teme"
+msgstr "Thema voorbeeld"
 
 #: includes/settings-page.php:139
 #, php-format
 msgid "Automate %1$s for all images"
-msgstr "Automatiziraj %1$s za sve slike"
+msgstr "Automatiseer %1$s voor alle afbeeldingen"
 
 #: includes/settings-page.php:143
 msgid "Automatically add colorbox-class to images in posts and pages. Also adds colorbox-class to galleries. Images in one page or post are grouped automatically."
-msgstr "Dodaj automatski colorbox-klasu slikama u člancima i na stranicama. Takođe dodaje colobox-klasu galerijama. Sve slike unutar jednog članka ili jedne stranice če automatski biti grupirane. "
+msgstr "Voeg automatisch de colorbox-class toe aan afbeeldingen in posts en pagina's. Voeg de colorbox-class ook toe aan galerijen. Afbeeldingen op een pagina of post worden automatisch gegroepeerd."
 
 #: includes/settings-page.php:148
 #, php-format
 msgid "Automate %1$s for images in WordPress galleries"
-msgstr "Automatiziraj %1$s za slike u WordPress galeriji."
+msgstr "Automatiseer %1$s voor afbeeldingen in Wordpress galerijen"
 
 #: includes/settings-page.php:152
 msgid "Automatically add colorbox-class to images in WordPress galleries, but nowhere else. Images in one page or post are grouped automatically."
-msgstr "Dodaj automatksi colorbox-klasu za slike samo u galerijama, nigdje drugdje. SSe slike unutar jednog članka ili jedne stranice če automatski biti grupirane. "
+msgstr "Voeg automatisch de colorbox-class toe aan afbeeldingen in Wordpress galerijen, maar verder nergens. Afbeeldingen op een pagina of post worden automatisch gegroepeerd."
 
 #: includes/settings-page.php:157
 msgid "Add Slideshow to groups"
-msgstr "Dodaj slideshow grupama"
+msgstr "Voeg Slideshow toe aan groepen"
 
 #: includes/settings-page.php:161
 #, php-format
 msgid "Add Slideshow functionality for %1$s Groups"
-msgstr "Dodaj slideshow funkcionalnost za %1$s grupe"
+msgstr "Voeg Slideshow functionaliteit toe voor %1$s Groepen"
 
 #: includes/settings-page.php:166
 msgid "Start Slideshow automatically"
-msgstr "Pokreni slideshow automatski"
+msgstr "Start Slideshow automatisch"
 
 #: includes/settings-page.php:170
 #, php-format
 msgid "Start Slideshow automatically if slideshow functionality is added to %1$s Groups"
-msgstr "Pokreni slideshow automatski ako je slideshow funkcionalnost dodana %1$s grupama"
+msgstr "Start Slideshow automatisch als slideshow functionaliteit toegevoegd is aan %1$s Groepen"
 
 #: includes/settings-page.php:175
 msgid "Speed of the slideshow"
-msgstr "Brzina slideshowa"
+msgstr "Snelheid van de slideshow"
 
 #: includes/settings-page.php:178
 #: includes/settings-page.php:341
 msgid "milliseconds"
-msgstr "milisekundama"
+msgstr "milliseconden"
 
 #: includes/settings-page.php:179
 msgid "Sets the speed of the slideshow, in milliseconds"
-msgstr "Postavi brzinu slideshowa u milisekundama"
+msgstr "Bepaalt de snelheid van de slideshow, in milliseconden"
 
 #: includes/settings-page.php:184
 msgid "Disable loop"
@@ -234,109 +235,109 @@ msgstr ""
 
 #: includes/settings-page.php:202
 msgid "Maximum width of an image"
-msgstr "Maksimalna širina slike"
+msgstr "Maximale breedte van een afbeelding"
 
 #: includes/settings-page.php:206
 #: includes/settings-page.php:252
 msgid "Do not set width"
-msgstr "Ne postavljaj širinu"
+msgstr "Stel breedte niet in"
 
 #: includes/settings-page.php:209
 msgid "Set maximum width of an image"
-msgstr "Postavi maksimalnu širinu slike"
+msgstr "Stel maximale breedte van een afbeelding in"
 
 #: includes/settings-page.php:220
 msgid "Set the maximum width of the image in the Colorbox in relation to the browser window in percent or pixels. If maximum width is not set, image is as wide as the Colorbox"
-msgstr "Postavi maksimalnu širinu slike u Colorboxu u relaciji prema web pretraživaču u postotcima ili pikselima. Ako maksimalna širina nije postavljenja, slika je iste širine kao Colorbox"
+msgstr "Stel de maximale breedte van een afbeelding in de Colorbox in, in relatie met de browser in procenten of pixels. Als de maximale breedte niet ingesteld is, is de afbeelding even breed als de Colorbox"
 
 #: includes/settings-page.php:225
 msgid "Maximum height of an image"
-msgstr "Maksimalma visina slike"
+msgstr "Maximale hoogte van een afbeelding"
 
 #: includes/settings-page.php:229
 #: includes/settings-page.php:275
 msgid "Do not set height"
-msgstr "Ne postavljaj visinu"
+msgstr "Stel de hoogte niet in"
 
 #: includes/settings-page.php:232
 msgid "Set maximum height of an image"
-msgstr "Postavi visinu slike"
+msgstr "Stel de maximale hogte van een afbeelding in"
 
 #: includes/settings-page.php:243
 msgid "Set the maximum height of the image in the Colorbox in relation to the browser window to a value in percent or pixels. If maximum height is not set, the image is as high as the Colorbox"
-msgstr "Postavi maksimalnu visinu slike u Colorboxu u relaciji prema web pretraživaču u postotcima ili pikselima. Ako maksimalna visina nije postavljenja, slika je iste visine kao Colorbox"
+msgstr "Stel de maximale hoogte van een afbeelding in de Colorbox in, in relatie met de browser in procenten of pixels. Als de maximale hoogte niet ingesteld is, is de afbeelding even hoog als de Colorbox"
 
 #: includes/settings-page.php:248
 msgid "Maximum width of the Colorbox"
-msgstr "Maksimalna širina Colorboxa"
+msgstr "Maximale breedte van de Colorbox"
 
 #: includes/settings-page.php:255
 msgid "Set width of the Colorbox"
-msgstr "Postavi širinu Colorboxa"
+msgstr "Stel de breedte van de Colorbox in"
 
 #: includes/settings-page.php:266
 msgid "Set the maximum width of the Colorbox itself in relation to the browser window to a value between in percent or pixels. If the image is bigger than the colorbox, scrollbars are displayed. If width is not set, the Colorbox will be as wide as the picture in it"
-msgstr "Postavi maksimalnu širinu Colorboxa u relaciji prema web pretraživaču u postotcima ili pikselima. Ako je slika veća od Colorboxa bit će prikazan scrollbar. Ako širina nije postavljena, Colorbox će biti iste širine kao i sama slika"
+msgstr "Stel de maximale breedte van de Colorbox zelf in, in relatie met de browser in procenten of pixels. Als de afbeelding groter is dan de Colorbox zullen er scrollbars getoond worden. Als de breedte niet ingesteld is zal de Colorbox even breed als de afbeelding zijn"
 
 #: includes/settings-page.php:271
 msgid "Maximum height of the Colorbox"
-msgstr "Maksimalna visina Colorboxa"
+msgstr "Maximale hoogte van de Colorbox"
 
 #: includes/settings-page.php:278
 msgid "Set height of the Colorbox"
-msgstr "Postavi visinu Colorboxa"
+msgstr "Stel hoogte van de Colorbox in"
 
 #: includes/settings-page.php:289
 msgid "Set the maximum height of the Colorbox itself in relation to the browser window to a value between in percent or pixels. If the image is bigger than the colorbox, scrollbars are displayed. If height is not set, the Colorbox will be as high as the picture in it"
-msgstr "Postavi maksimalnu visinu Colorboxa u relaciji prema web pretraživaču u postotcima ili pikselima. Ako je slika veća od Colorboxa bit će prikazan scrollbar. Ako visina nije postavljena, Colorbox će biti iste visine kao i sama slika"
+msgstr "Stel de maximale hoogte van de Colorbox zelf in, in relatie met de browser in procenten of pixels. Als de afbeelding groter is dan de Colorbox zullen er scrollbars getoond worden. Als de hoogte niet ingesteld is zal de Colorbox even breed als de afbeelding zijn"
 
 #: includes/settings-page.php:294
 msgid "Resize images"
-msgstr "Promijeni veličinu slike"
+msgstr "Afbeeldingen herschalen"
 
 #: includes/settings-page.php:298
 msgid "If enabled and if maximum width of images, maximum height of images, width of the Colorbox, or height of the Colorbox have been defined, ColorBox will scale photos to fit within the those values"
-msgstr "Ako su omogučeni i definirani maksimalna širina slike, maksimalna visina slike, širina Colorboxa ili visina Colorboxa, Clorobox će prilagoditi veličinu slike ovim vrijednostima"
+msgstr "Als geactiveerd en als de maximale breedte en/of hoogte van de Colorbox en/of afbeeldingen zijn gedefineerd, dan zal Colorbox de foto's zo schalen dat ze binnen de betreffende waarden passen"
 
 #: includes/settings-page.php:303
 msgid "Close Colorbox on overlay click"
-msgstr "Zatvori Colorbox ako se klikne na overlay."
+msgstr "Colobox afsluiten bij klik op bedekking"
 
 #: includes/settings-page.php:307
 msgid "If checked, enables closing ColorBox by clicking on the background overlay"
-msgstr "Ako označeno, omogućava zatvaranje Colorboxa klikom na overlay u pozadini"
+msgstr "Als aangevinkt, dan kan de Colorbox worden gesloten door op de achtergrond te klikken"
 
 #: includes/settings-page.php:312
 msgid "Preload images"
-msgstr "Preučitaj slike"
+msgstr "Afbeeldingen voorladen"
 
 #: includes/settings-page.php:316
 msgid "Allows for preloading of \"next\" and \"previous\" content in a group, after the current content has finished loading. Uncheck box to disable."
-msgstr "Dozvoljava preučitavanje \"next\" i \"previous\" slika unutar jedne grupe nakon učitavanja aktuelnog sadržaja. Da bi deaktivirao ovaj elemenat ukloni kvačicu iz odjeljka. "
+msgstr "Sta toe om \"vorige\" en \"volgende\" content in een groep al in te laden, nadat de huidige content is ingeladen. Uitvinken om te deactiveren."
 
 #: includes/settings-page.php:321
 msgid "Transition type"
-msgstr "Tip izmjene"
+msgstr "Overgang type"
 
 #: includes/settings-page.php:333
 msgid "The transition type of the Colorbox. Can be set to \"elastic\", \"fade\", or \"none\""
-msgstr "Vrsta prijelaza.Može biti postavljena na \"elastic\", \"fade\", ili \"none\""
+msgstr "Het transitie type van de Colorbox. Kan op \"elastic\", \"fade\", of \"none\" worden ingesteld"
 
 #: includes/settings-page.php:338
 msgid "Transition speed"
-msgstr "Brzina izjmene"
+msgstr "Overgang snelheid"
 
 #: includes/settings-page.php:342
 msgid "Sets the speed of the \"fade\" and \"elastic\" transitions, in milliseconds"
-msgstr "Određuje brzinu \"fade\" i \"elastic\" prijelaza, u milisekundama"
+msgstr "Stelt de snelheid van de \"fade\" en \"elastic\" transitie in milliseconden in"
 
 #: includes/settings-page.php:347
 msgid "Opacity"
-msgstr "Prozirnost"
+msgstr "Doorzichtigheid"
 
 #: includes/settings-page.php:351
 msgid "The overlay opacity level. Range: 0 to 1"
-msgstr "Nivo Neprozirnosti overlaya. Raspon od 0 do 1"
+msgstr "Doorzichtigheid van de achtergrond bedekking. Waarde tussen 0 en 1."
 
 #: includes/settings-page.php:356
 msgid "Make images draggable"
@@ -348,33 +349,33 @@ msgstr ""
 
 #: includes/settings-page.php:365
 msgid "Automate hiding of flash objects"
-msgstr "Automatsko sakrivanje flash objekata"
+msgstr "Verberg automatisch flash objecten"
 
 #: includes/settings-page.php:369
 #, fuzzy
 msgid "Automatically hide embeded flash objects behind the Colorbox layer."
-msgstr "Sakrij automatski flash objekte iza Colorbox layera. Za to će \"wmode\" biti podešen na \"transparent\"."
+msgstr "Verberg automatisch de ingebedde flash objecten achter de Colorbox laag door de wmode instelling op transparant te zetten."
 
 #: includes/settings-page.php:374
 msgid "Disable warning"
-msgstr "Deaktiviraj upozorenje"
+msgstr "Waarschuwingen deactiveren"
 
 #: includes/settings-page.php:378
 msgid "Disables the warning that is displayed if the plugin is activated but the auto-colorbox feature for all images is turned off."
-msgstr "Onemogućuje opomenu, prikazanu ako je plugin aktiviran ali element \"auto-colorbox\" za sve slike nije."
+msgstr "Deactiveer de melding die wordt getoond als de plugin is geactiveerd maar de auto-colorbox functie voor alle afbeeldingen uit staat."
 
 #: includes/settings-page.php:384
 msgid "Save Changes"
-msgstr "Sačuvaj promjene"
+msgstr "Wijzigingen opslaan"
 
 #: includes/settings-page.php:393
 #: includes/settings-page.php:402
 msgid "Delete Settings"
-msgstr "Izbriši postavke"
+msgstr "Instellingen verwijderen"
 
 #: includes/settings-page.php:396
 msgid "Check the box and click this button to delete settings of this plugin."
-msgstr "Aktiviraj Checkbox i klikni na odgovarajuće dugme da bi izbrisao opcije ovog plugin-a."
+msgstr "Vink de box aan en klip op deze knop om de instellingen van deze plugin te verwijderen."
 
 #: includes/settings-page.php:413
 msgid "Top donations"
@@ -386,11 +387,11 @@ msgstr ""
 
 #: includes/settings-page.php:431
 msgid "Donate"
-msgstr "Doniraj"
+msgstr "Doneren"
 
 #: includes/settings-page.php:435
 msgid "If you would like to make a small (or large) contribution towards future development please consider making a donation."
-msgstr "Ako bi želio da daš doprinos daljnjem usavršavanju, molim te razmisli o davanju donacije. "
+msgstr "Als u een kleine (of grote) contributie wil maken voor toekomstige ontwikkeling, maak dan alstublieft een donatie."
 
 #: includes/settings-page.php:440
 msgid "Techotronic Development Support"
@@ -427,11 +428,11 @@ msgstr ""
 
 #: includes/settings-page.php:471
 msgid "Translation"
-msgstr "Prijevod"
+msgstr "Vertaling"
 
 #: includes/settings-page.php:474
 msgid "The english translation was done by <a href=\"http://www.techotronic.de\">Arne Franken</a>."
-msgstr "Na bosanski je preveo <a href=\"http://www.vjucon.com\">Vedran Jurinčić</a>."
+msgstr "De Nederlandse vertaling is gedaan door <a href=\"http://nl.linkedin.com/pub/richard-laak/b/b21/672\">Richard van Laak</a>."
 
 #~ msgid "maxWidth"
 #~ msgstr "Maximum width of an image"

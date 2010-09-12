@@ -6,7 +6,7 @@
  * Plugin Name: jQuery Colorbox
  * Plugin URI: http://www.techotronic.de/plugins/jquery-colorbox/
  * Description: Used to overlay images on the current page. Images in one post are grouped automatically.
- * Version: 3.4
+ * Version: 3.6
  * Author: Arne Franken
  * Author URI: http://www.techotronic.de/
  * License: GPL
@@ -19,7 +19,8 @@
 ?>
 <?php
 //define constants
-define('JQUERYCOLORBOX_VERSION', '3.4');
+define('JQUERYCOLORBOX_VERSION', '3.6');
+define('COLORBOXLIBRARY_VERSION', '1.3.9');
 
 if (!defined('JQUERYCOLORBOX_PLUGIN_BASENAME')) {
     define('JQUERYCOLORBOX_PLUGIN_BASENAME', plugin_basename(__FILE__));
@@ -34,33 +35,22 @@ if (!defined('JQUERYCOLORBOX_TEXTDOMAIN')) {
     define('JQUERYCOLORBOX_TEXTDOMAIN', 'jquery-colorbox');
 }
 if (!defined('JQUERYCOLORBOX_PLUGIN_DIR')) {
-    if (is_dir(WPMU_PLUGIN_DIR)) {
-        // WP_MU plugin
-        define('JQUERYCOLORBOX_PLUGIN_DIR', WPMU_PLUGIN_DIR . '/' . JQUERYCOLORBOX_PLUGIN_NAME);
-    } else {
-        // WP regular plugin
-        define('JQUERYCOLORBOX_PLUGIN_DIR', WP_PLUGIN_DIR . '/' . JQUERYCOLORBOX_PLUGIN_NAME);
-    }
-}
-if (!defined('JQUERYCOLORBOX_PLUGIN_DIR')) {
-    if (is_dir(WPMU_PLUGIN_DIR)) {
-        define('JQUERYCOLORBOX_PLUGIN_DIR', ABSPATH . '/' . MUPLUGINDIR . '/' . JQUERYCOLORBOX_PLUGIN_NAME);
-    } else {
-        define('JQUERYCOLORBOX_PLUGIN_DIR', ABSPATH . '/' . PLUGINDIR . '/' . JQUERYCOLORBOX_PLUGIN_NAME);
-    }
+    define('JQUERYCOLORBOX_PLUGIN_DIR', WP_PLUGIN_DIR . '/' . JQUERYCOLORBOX_PLUGIN_NAME);
 }
 if (!defined('JQUERYCOLORBOX_PLUGIN_URL')) {
-    if (is_dir(WPMU_PLUGIN_DIR)) {
-        define('JQUERYCOLORBOX_PLUGIN_URL', WPMU_PLUGIN_URL . '/' . JQUERYCOLORBOX_PLUGIN_NAME);
-    } else {
-        define('JQUERYCOLORBOX_PLUGIN_URL', WP_PLUGIN_URL . '/' . JQUERYCOLORBOX_PLUGIN_NAME);
-    }
+    define('JQUERYCOLORBOX_PLUGIN_URL', WP_PLUGIN_URL . '/' . JQUERYCOLORBOX_PLUGIN_NAME);
 }
 if (!defined('JQUERYCOLORBOX_PLUGIN_LOCALIZATION_DIR')) {
     define('JQUERYCOLORBOX_PLUGIN_LOCALIZATION_DIR', JQUERYCOLORBOX_PLUGIN_DIR . '/localization');
 }
 if (!defined('JQUERYCOLORBOX_SETTINGSNAME')) {
     define('JQUERYCOLORBOX_SETTINGSNAME', 'jquery-colorbox_settings');
+}
+if (!defined('JQUERYCOLORBOX_LATESTDONATEURL')) {
+    define('JQUERYCOLORBOX_LATESTDONATEURL', 'http://colorbox.techotronic.de/latest-donations.php');
+}
+if (!defined('JQUERYCOLORBOX_TOPDONATEURL')) {
+    define('JQUERYCOLORBOX_TOPDONATEURL', 'http://colorbox.techotronic.de/top-donations.php');
 }
 
 class jQueryColorbox {
@@ -120,6 +110,8 @@ class jQueryColorbox {
             'theme11' => __('Theme #11', JQUERYCOLORBOX_TEXTDOMAIN)
         );
 
+//        $this->colorboxThemes = array_merge($this->getThemeDirs(),$this->colorboxThemes);
+
         $dummyThemeNumberArray = array(
             __('Theme #12', JQUERYCOLORBOX_TEXTDOMAIN),
             __('Theme #13', JQUERYCOLORBOX_TEXTDOMAIN),
@@ -145,7 +137,7 @@ class jQueryColorbox {
         $defaultArray = jQueryColorbox::jQueryColorboxDefaultSettings();
         $this->colorboxSettings = wp_parse_args($usersettings, $defaultArray);
 
-        // Enqueue the theme in wordpress
+        // Set default theme if no theme is set already
         if (empty($this->colorboxThemes[$this->colorboxSettings['colorboxTheme']])) {
             $this->colorboxSettings['colorboxTheme'] = $defaultArray['colorboxTheme'];
         }
@@ -154,12 +146,16 @@ class jQueryColorbox {
             // enqueue javascripts in wordpress
             wp_register_style('colorbox-' . $this->colorboxSettings['colorboxTheme'], plugins_url('themes/' . $this->colorboxSettings['colorboxTheme'] . '/colorbox.css', __FILE__), array(), JQUERYCOLORBOX_VERSION, 'screen');
             wp_enqueue_style('colorbox-' . $this->colorboxSettings['colorboxTheme']);
-            wp_enqueue_script('colorbox', plugins_url('js/jquery.colorbox-min.js', __FILE__), array('jquery'), '1.3.6');
+            wp_enqueue_script('colorbox', plugins_url('js/jquery.colorbox-min.js', __FILE__), array('jquery'), COLORBOXLIBRARY_VERSION);
+//            if($this->colorboxSettings['draggable']) {
+//                ?!?wp_enqueue_script('jquery-ui-draggable');
+//                wp_enqueue_script('colorbox-draggable', plugins_url('js/jquery-colorbox-draggable.js', __FILE__), array('jquery-ui-draggable'), JQUERYCOLORBOX_VERSION);
+//            }
             if ($this->colorboxSettings['autoColorbox']) {
                 wp_enqueue_script('colorbox-auto', plugins_url('js/jquery-colorbox-auto-min.js', __FILE__), array('colorbox'), JQUERYCOLORBOX_VERSION);
             }
             if ($this->colorboxSettings['autoHideFlash']) {
-                wp_enqueue_script('colorbox-hideflash', plugins_url('js/jquery-colorbox-hideFlash-min.js', __FILE__), array('colorbox'), JQUERYCOLORBOX_VERSION);
+                wp_enqueue_script('colorbox-hideflash', plugins_url('js/jquery-colorbox-hideFlash.js', __FILE__), array('colorbox'), JQUERYCOLORBOX_VERSION);
             }
         }
     }
@@ -169,12 +165,12 @@ class jQueryColorbox {
     /**
      * Renders plugin link in Meta widget
      *
-     * @since 1.0
+     * @since 3.3
      * @access private
      * @author Arne Franken
      */
     function renderMetaLink() { ?>
-        <li><?php _e('Using',JQUERYCOLORBOX_TEXTDOMAIN);?> <a href="http://www.techotronic.de/plugins/jquery-colorbox/" title="<?php echo JQUERYCOLORBOX_NAME ?>"><?php echo JQUERYCOLORBOX_NAME ?></a></li>
+        <li id="colorboxLink"><?php _e('Using',JQUERYCOLORBOX_TEXTDOMAIN);?> <a href="http://www.techotronic.de/plugins/jquery-colorbox/" title="<?php echo JQUERYCOLORBOX_NAME ?>"><?php echo JQUERYCOLORBOX_NAME ?></a></li>
     <?php }
 
     /**
@@ -530,6 +526,67 @@ class jQueryColorbox {
     }
 
     // activateJqueryColorbox()
+
+    /**
+     * Read HTML from a remote url
+     *
+     * @since 3.5
+     * @access private
+     * @author Arne Franken
+     * 
+     * @param string $url
+     * @return the response
+     */
+    function getRemoteContent($url) {
+        if ( function_exists('wp_remote_request') ) {
+
+            $options = array();
+            $options['headers'] = array(
+                'User-Agent' => 'jQuery Colorbox V' . JQUERYCOLORBOX_VERSION . '; (' . get_bloginfo('url') .')'
+             );
+
+            $response = wp_remote_request($url, $options);
+
+            if ( is_wp_error( $response ) )
+                return false;
+
+            if ( 200 != wp_remote_retrieve_response_code($response) )
+                return false;
+
+            return wp_remote_retrieve_body($response);
+        }
+
+        return false;
+    }
+
+    // getRemoteContent()
+
+    /**
+     * gets current URL to return to after donating
+     *
+     * @since 3.5
+     * @access private
+     * @author Arne Franken
+     */
+    function getReturnLocation(){
+        $currentLocation = "http";
+        $currentLocation .= ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS']=='on') ? "s" : "")."://";
+        $currentLocation .= $_SERVER['SERVER_NAME'];
+        if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS']=='on') {
+            if($_SERVER['SERVER_PORT']!='443') {
+                $currentLocation .= ":".$_SERVER['SERVER_PORT'];
+            }
+        }
+        else {
+            if($_SERVER['SERVER_PORT']!='80') {
+                $currentLocation .= ":".$_SERVER['SERVER_PORT'];
+            }
+        }
+        $currentLocation .= $_SERVER['REQUEST_URI'];
+        echo $currentLocation;
+    }
+
+    // getReturnLocation()
 }
 
 // class jQueryColorbox()

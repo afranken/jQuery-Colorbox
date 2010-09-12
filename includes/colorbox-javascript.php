@@ -45,7 +45,8 @@
                             echo $this->colorboxSettings['slideshowAuto'] ? '' : 'slideshowAuto:false,';
                             echo $this->colorboxSettings['scalePhotos'] ? '' : 'scalePhotos:false,';
                             echo $this->colorboxSettings['preloading'] ? '' : 'preloading:false,';
-                            echo $this->colorboxSettings['overlayClose'] ? '' : 'overlayClose:false,';?>
+                            echo $this->colorboxSettings['overlayClose'] ? '' : 'overlayClose:false,';
+                            echo !$this->colorboxSettings['displayScrollbar']||$this->colorboxSettings['draggable'] ? '' : 'scrolling:false,';?>
                             opacity:"<?php echo $this->colorboxSettings['opacity']; ?>",
                             transition:"<?php echo $this->colorboxSettings['transition']; ?>",
                             speed:<?php echo $this->colorboxSettings['speed']; ?>,
