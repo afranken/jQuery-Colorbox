@@ -6,7 +6,7 @@
  * Plugin Name: jQuery Colorbox
  * Plugin URI: http://www.techotronic.de/plugins/jquery-colorbox/
  * Description: Used to overlay images on the current page. Images in one post are grouped automatically.
- * Version: 3.8
+ * Version: 3.8.1
  * Author: Arne Franken
  * Author URI: http://www.techotronic.de/
  * License: GPL
@@ -19,7 +19,7 @@
 ?>
 <?php
 //define constants
-define('JQUERYCOLORBOX_VERSION', '3.8');
+define('JQUERYCOLORBOX_VERSION', '3.8.1');
 define('COLORBOXLIBRARY_VERSION', '1.3.15');
 
 if (!defined('JQUERYCOLORBOX_PLUGIN_BASENAME')) {
@@ -91,10 +91,10 @@ class jQueryColorbox {
             register_uninstall_hook(__FILE__, array('jQueryColorbox', 'deleteSettingsFromDatabase'));
         }
 
-        //only add link to meta box
-        if(isset($this->colorboxSettings['removeLinkFromMetaBox']) && !$this->colorboxSettings['removeLinkFromMetaBox']){
-            add_action('wp_meta',array(& $this, 'renderMetaLink'));
-        }
+        // Create the settings array by merging the user's settings and the defaults
+        $usersettings = (array) get_option(JQUERYCOLORBOX_SETTINGSNAME);
+        $defaultArray = jQueryColorbox::jQueryColorboxDefaultSettings();
+        $this->colorboxSettings = wp_parse_args($usersettings, $defaultArray);
 
         // Set default theme if no theme is set already
         if (empty($this->colorboxThemes[$this->colorboxSettings['colorboxTheme']])) {
