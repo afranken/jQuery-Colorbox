@@ -135,15 +135,15 @@
                         <br/><?php __('Automatically add colorbox-class to all images that are not in posts and pages (e.g. the sidebar).', JQUERYCOLORBOX_TEXTDOMAIN); ?>
                     </td>
                 </tr-->
-                <!--tr>
+                <tr>
                     <th scope="row">
-                        <label for="jquery-colorbox-autoHideFlash"><?php __('Automate hiding of flash objects', JQUERYCOLORBOX_TEXTDOMAIN); ?>:</label>
+                        <label for="jquery-colorbox-autoHideFlash"><?php _e('Automate hiding of flash objects', JQUERYCOLORBOX_TEXTDOMAIN); ?>:</label>
                     </th>
                     <td>
-                        <input type="checkbox" name="<?php //echo JQUERYCOLORBOX_SETTINGSNAME ?>[autoHideFlash]" id="jquery-colorbox-autoHideFlash" value="true" <?php //echo ($this->colorboxSettings['autoHideFlash']) ? 'checked="checked"' : '';?>/>
-                        <br/><?php __('Automatically hide embeded flash objects behind the Colorbox layer.', JQUERYCOLORBOX_TEXTDOMAIN); ?>
+                        <input type="checkbox" name="<?php echo JQUERYCOLORBOX_SETTINGSNAME ?>[autoHideFlash]" id="jquery-colorbox-autoHideFlash" value="true" <?php echo ($this->colorboxSettings['autoHideFlash']) ? 'checked="checked"' : '';?>/>
+                        <br/><?php _e('Automatically hide embeded flash objects behind the Colorbox layer.', JQUERYCOLORBOX_TEXTDOMAIN); ?>
                     </td>
-                </tr-->
+                </tr>
                 <!--tr>
                     <th scope="row">
                         <label for="jquery-colorbox-javascriptInFooter"><?php __('Add JavaScript to footer', JQUERYCOLORBOX_TEXTDOMAIN); ?>:</label>
