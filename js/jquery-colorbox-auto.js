@@ -8,10 +8,10 @@
  *
  * adds colorbox-manual to ALL img tags that are found in the HTML output
  */
-jQuery(document).ready(function($) {
-    $("img").each( function(index,obj){
-        if(!$(obj).attr("class").match('colorbox')) {
-            $(obj).addClass('colorbox-manual');
+jQuery(document).ready( function(jQuery) {
+    jQuery("img").each( function(index,obj){
+        if(!jQuery(obj).attr("class").match('colorbox')) {
+            jQuery(obj).addClass('colorbox-manual');
         }
     });
 });

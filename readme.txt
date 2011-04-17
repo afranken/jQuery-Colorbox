@@ -3,8 +3,8 @@ Contributors: techotronic
 Donate link: http://www.techotronic.de/donate/
 Tags: jquery, colorbox, lightbox, images, pictures, photos, gallery, javascript, overlay, nextgen gallery, nextgen-gallery, image, picture, photo, media, slideshow, ngg, mu
 Requires at least: 2.8
-Tested up to: 3.0
-Stable tag: 3.8.3
+Tested up to: 3.1
+Stable tag: 4.0
 
 Adds Colorbox/Lightbox functionality to images, grouped by post or page. Works for WordPress and NextGEN galleries. Comes with different themes.
 
@@ -20,12 +20,12 @@ Images are grouped as galleries when linked in the same post or page. Groups can
 
 Individual images can be excluded by adding a special CSS class.
 
-Starting with version 3.8, jQuery Colorbox can also open linked contents in a Colorbox.
+jQuery Colorbox can also open linked content (external as well as inline) in a Colorbox.
 
 See the <a href="http://www.techotronic.de/plugins/jquery-colorbox/">plugin page</a> for demo pages.
 
 For more information visit the <a href="http://wordpress.org/extend/plugins/jquery-colorbox/faq/">FAQ</a>.
-If you have questions or problems, feel free to write an email to blog [at] techotronic.de or write a entry at <a href="http://wordpress.org/tags/jquery-colorbox?forum_id=10">the jQuery Colorbox WordPress.org forum</a>
+If you have questions or problems, feel free to write an entry at <a href="http://wordpress.org/tags/jquery-colorbox?forum_id=10">the jQuery Colorbox WordPress.org forum</a>
 
 Localization
 
@@ -41,7 +41,7 @@ Localization
 * Latvian (lv) by <a href=\"http://lapuvieta.lv\">Uldis Jansons</a>
 * Malay (ms_MY) by <a href="http://www.inisahaini.com">Saha-ini Ahmad Safian</a>
 * Portuguese (pt_BR) by <a href="http://twitter.com/gervasioantonio">Gervásio Antônio</a>
-* Russian (ru_RU) by <a href="http://drive2life.ru">Drive2Life.ru</a>
+* Russian (ru_RU) by <a href="http://drive2life.ru">Arkadiy Florinskiy</a>
 * Slovak (sk_SK) by <a href="http://itec.sk/">Stefan Stieranka</a>
 * Spanish (es_ES) by <a href="http://www.redywebs.com/">Inma P.-Zubizarreta</a>
 * Swedish (sv_SE) by <a href="http://www.theindiaexperience.se/">Christian</a>
@@ -50,9 +50,9 @@ Localization
 
 Is your native language missing? Translating the plugin is easy if you understand english and are fluent in another language. Just send me an email.
 
-Includes <a href="http://colorpowered.com/colorbox/">ColorBox</a> 1.3.15 jQuery plugin from Jack Moore.
+Includes <a href="http://colorpowered.com/colorbox/">ColorBox</a> 1.3.16 jQuery plugin from Jack Moore.
 Colorbox is licensed under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT License</a>.
-jQuery Colorbox uses the jQuery library version 1.4.2 bundled with WordPress 3.0. Works with jQuery 1.4.4 and 1.3.2 bundled with Wordpress 2.9 too.
+jQuery Colorbox uses the jQuery library version 1.4 bundled with WordPress 3.x. Also works with jQuery 1.3.2 bundled with Wordpress 2.9.
 The picture I used for the screenshots was designed by <a href="http://wallpapers.vintage.it/">Davide Vicariotto</a>
 
 == Installation ==
@@ -83,10 +83,6 @@ Make sure that your theme uses the `wp_head();` function in the HTML head-tag.
 
 I have seen problems where other plugins include their own versions of the jQuery library my plugin uses.
 Chances are that the other jQuery library is loaded after the one that I load. If that happens, the colorbox features are overwritten.
-
-* Upon activation of the plugin I see the following error `Parse error: syntax error, unexpected T_STATIC, expecting T_OLD_FUNCTION or T_FUNCTION or T_VAR or '}' in /path/to/jquery-colorbox.php on line XX`
-
-jQuery Colorbox needs PHP5 to work. You see this error message because you are using PHP4.
 
 * How does jQuery Colorbox work?
 
@@ -167,17 +163,22 @@ Step 8) When you are sure that all translations are working correctly, send the 
 
 Feel free to write an email to blog [at] techotronic.de or open a thread at <a href="http://wordpress.org/tags/jquery-colorbox?forum_id=10">the jQuery Colorbox WordPress.org forum</a>.
 
-I'll include new FAQs in every new version. Promise.
+I'll include new FAQs in newer versions.
 
 == Changelog ==
-= 4.0 (2011-01-31) =
+= 4.0 (2011-04-16) =
 * CHANGE: Restructured settings page
-* NEW: set width and height for Colorbox links separately
-* NEW: inline HTML content can now be loaded in the Colorbox.
-* CHANGE: <a href="http://www.photokeens.com">Modar Soos</a> updated the Arabic translation
 * CHANGE: plugin again compatible to PHP4.
+* CHANGE: Update of Colorbox library to version 1.3.16
+* CHANGE: jQuery calls won't break other JavaScript libraries like Prototype or Scriptaculous any more
+* NEW: set width and height for Colorbox links once separate from the Colorbox setting for images
+* NEW: inline HTML content can now be loaded in the Colorbox.
 * NEW: Latvian translation by <a href=\"http://lapuvieta.lv\">Uldis Jansons</a>
+* CHANGE: <a href="http://www.photokeens.com">Modar Soos</a> updated the Arabic translation
+* CHANGE: <a href="mailto:nettojp@gmail.com">Joao Netto</a> updated the Portuguese translation
+* CHANGE: <a href="http://drive2life.ru">Arkadiy Florinskiy</a> updated the Russian translation
 * CHANGE: made plugin compatible to the "smugmug" plugin.
+* CHANGE: moved Colorbox CSS class add to style dropdown of TinyMCE
 
 = 3.8.3 (2010-12-24) =
 * NEW: Spanish translation by <a href="http://www.redywebs.com/">Inma P.-Zubizarreta</a>

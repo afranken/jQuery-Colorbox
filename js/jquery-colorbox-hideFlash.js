@@ -7,8 +7,8 @@
  *
  * handles automatic hiding of flash object and embed tags 
  */
-jQuery(document).ready(function($) {
-    $(document).bind('cbox_open', function(){
+jQuery(document).ready(function(jQuery) {
+    jQuery(document).bind('cbox_open', function(){
         var flashObjects = document.getElementsByTagName("object");
         for (i = 0; i < flashObjects.length; i++) {
             flashObjects[i].style.visibility = "hidden";
@@ -18,7 +18,7 @@ jQuery(document).ready(function($) {
             flashEmbeds[i].style.visibility = "hidden";
         }
     });
-    $(document).bind('cbox_closed', function(){
+    jQuery(document).bind('cbox_closed', function(){
         var flashObjects = document.getElementsByTagName("object");
         for (i = 0; i < flashObjects.length; i++) {
             flashObjects[i].style.visibility = "visible";

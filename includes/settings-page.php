@@ -426,6 +426,24 @@
                         <br/><?php _e('Set the maximum height of the Colorbox itself in relation to the browser window to a value between in percent or pixels. If the image is bigger than the colorbox, scrollbars are displayed. If height is not set, the Colorbox will be as high as the picture in it', JQUERYCOLORBOX_TEXTDOMAIN); ?>.
                     </td>
                 </tr>
+<!--                <tr>-->
+<!--                    <th scope="row">-->
+<!--                        <label for="jquery-colorbox-initialWidth">--><?php __('Initial width of the Colorbox', JQUERYCOLORBOX_TEXTDOMAIN); ?><!--:</label>-->
+<!--                    </th>-->
+<!--                    <td>-->
+<!--                        <input type="text" name="--><?php //echo JQUERYCOLORBOX_SETTINGSNAME ?><!--[initialWidth]" id="jquery-colorbox-initialWidth" value="--><?php //echo $this->colorboxSettings['initialWidth'] ?><!--" size="5" maxlength="5"/>--><?php __('pixels',JQUERYCOLORBOX_TEXTDOMAIN) ?>
+<!--                        <br/>--><?php __('Set the maximum width of the Colorbox before the content is loaded', JQUERYCOLORBOX_TEXTDOMAIN); ?><!--.-->
+<!--                    </td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <th scope="row">-->
+<!--                        <label for="jquery-colorbox-initialHeight">--><?php __('Initial height of the Colorbox', JQUERYCOLORBOX_TEXTDOMAIN); ?><!--:</label>-->
+<!--                    </th>-->
+<!--                    <td>-->
+<!--                        <input type="text" name="--><?php //echo JQUERYCOLORBOX_SETTINGSNAME ?><!--[initialHeight]" id="jquery-colorbox-initialHeight" value="--><?php //echo $this->colorboxSettings['initialHeight'] ?><!--" size="5" maxlength="5"/>--><?php __('pixels',JQUERYCOLORBOX_TEXTDOMAIN) ?>
+<!--                        <br/>--><?php __('Set the maximum height of the Colorbox before the content is loaded', JQUERYCOLORBOX_TEXTDOMAIN); ?><!--.-->
+<!--                    </td>-->
+<!--                </tr>-->
                 <tr>
                     <th scope="row">
                         <label for="jquery-colorbox-scalePhotos"><?php _e('Resize images', JQUERYCOLORBOX_TEXTDOMAIN); ?>:</label>

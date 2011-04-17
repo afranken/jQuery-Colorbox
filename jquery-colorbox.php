@@ -6,7 +6,7 @@
  * Plugin Name: jQuery Colorbox
  * Plugin URI: http://www.techotronic.de/plugins/jquery-colorbox/
  * Description: Used to overlay images on the current page. Images in one post are grouped automatically.
- * Version: 3.8.5
+ * Version: 4.0
  * Author: Arne Franken
  * Author URI: http://www.techotronic.de/
  * License: GPL
@@ -19,8 +19,8 @@
 ?>
 <?php
 //define constants
-define('JQUERYCOLORBOX_VERSION', '3.8.5');
-define('COLORBOXLIBRARY_VERSION', '1.3.15');
+define('JQUERYCOLORBOX_VERSION', '4.0');
+define('COLORBOXLIBRARY_VERSION', '1.3.16');
 
 if (!defined('JQUERYCOLORBOX_PLUGIN_BASENAME')) {
     define('JQUERYCOLORBOX_PLUGIN_BASENAME', plugin_basename(__FILE__));
@@ -112,8 +112,10 @@ class jQueryColorbox {
             add_filter('wp_get_attachment_image_attributes', array(& $this, 'wpPostThumbnailClassFilter'));
         }
 
-        //add CSS classes to "add link" dropdown menu
-        add_filter('mce_css', array(& $this, 'addColorboxLinkClasses'));
+        //add style selector dropdown to TinyMCE
+        add_filter('mce_buttons_2', array(& $this, 'addStyleSelectorBox'), 100);
+        //add Colorbox CSS class to TinyMCE dropdown box
+        add_filter('tiny_mce_before_init', array(& $this, 'addColorboxLinkClass'), 100);
 
         // Create list of themes and their human readable names
         $this->colorboxThemes = array(
@@ -154,6 +156,7 @@ class jQueryColorbox {
 
         if (!is_admin()) {
             // enqueue JavaScript and CSS files in wordpress
+            wp_enqueue_script('jquery');
             wp_register_style('colorbox-' . $this->colorboxSettings['colorboxTheme'], plugins_url('themes/' . $this->colorboxSettings['colorboxTheme'] . '/colorbox.css', __FILE__), array(), JQUERYCOLORBOX_VERSION, 'screen');
             wp_enqueue_style('colorbox-' . $this->colorboxSettings['colorboxTheme']);
             if($this->colorboxSettings['debugMode']) {
@@ -200,7 +203,7 @@ class jQueryColorbox {
      */
     //public function renderMetaLink() {
     function renderMetaLink() { ?>
-        <li id="colorboxLink"><?php _e('Using',JQUERYCOLORBOX_TEXTDOMAIN);?> <a href="http://www.techotronic.de/plugins/jquery-colorbox/" title="<?php echo JQUERYCOLORBOX_NAME ?>"><?php echo JQUERYCOLORBOX_NAME ?></a></li>
+        <li id="colorboxLink"><?php _e('Using',JQUERYCOLORBOX_TEXTDOMAIN);?> <a href="http://www.techotronic.de/plugins/jquery-colorbox/" target="_blank" title="<?php echo JQUERYCOLORBOX_NAME ?>"><?php echo JQUERYCOLORBOX_NAME ?></a></li>
     <?php }
 
     // renderMetaLink()
@@ -324,10 +327,10 @@ class jQueryColorbox {
         <!-- <?php echo JQUERYCOLORBOX_NAME ?> <?php echo JQUERYCOLORBOX_VERSION ?> | by Arne Franken, http://www.techotronic.de/ -->
         <?php
         // include CSS fixes for IE for certain themes
-        preg_match('/\d+$/i',$this->colorboxSettings['colorboxTheme'],$themeNumbers);
-        if(in_array($themeNumbers[0],array(1,4,6,7,9,11))){
-            require_once 'includes/iefix-theme'.$themeNumbers[0].'.php';
-        }
+//        preg_match('/\d+$/i',$this->colorboxSettings['colorboxTheme'],$themeNumbers);
+//        if(in_array($themeNumbers[0],array(1,4,6,7,9,11))){
+//            require_once 'includes/iefix-theme'.$themeNumbers[0].'.php';
+//        }
         // include Colorbox Javascript
             require_once 'includes/colorbox-javascript.php';
             require_once 'includes/colorbox-javascript-loader.php';
@@ -453,6 +456,8 @@ class jQueryColorbox {
             'linkWidth' => 'false',
             'linkWidthValue' => '',
             'linkWidthUnit' => '%',
+            'initialWidth' => '300',
+            'initialHeight' => '100',
             'autoColorbox' => false,
             'autoColorboxGalleries' => false,
             'slideshow' => false,
@@ -656,25 +661,44 @@ class jQueryColorbox {
     // getReturnLocation()
 
     /**
-     * adds Colorbox CSS class to "add link" dialog
+     * adds Colorbox CSS class to TinyMCE style selector dropdown box
      *
      * @since 3.7
      * @access public
      * @author Arne Franken
      *
-     * @param  $defaultCss
+     * @param  $init_array
      * @return modified array
      */
-    //public function addColorboxLinkClasses($defaultCss) {
-    function addColorboxLinkClasses($defaultCss) {
+    //public function addColorboxLinkClass($defaultCss) {
+    function addColorboxLinkClass($init_array) {
 
-        $jqueryColorboxCss = JQUERYCOLORBOX_PLUGIN_URL . '/css/jquery-colorbox.css';
-        $defaultCss .= ',' . $jqueryColorboxCss;
-
-        return trim($defaultCss, ' ,');
+        $init_array['theme_advanced_styles'] .= ';colorbox-link=colorbox-link;';
+        //strip first and last character if it matches ";"
+        $init_array['theme_advanced_styles'] = trim($init_array['theme_advanced_styles'], ';');
+        return $init_array;
     }
 
     // addColorboxLinkClasses()
+
+   /**
+    * Adds style selector option to TinyMCE
+    *
+    * @since 4.0
+    * @access public
+    * @author Arne Franken
+    *
+    * @param $array
+    * @return modified array
+    */
+    function addStyleSelectorBox($array) {
+        if(!in_array('styleselect',$array)){
+            array_push($array,'styleselect');
+        }
+        return $array;
+    }
+
+    // addStyleSelectorBox()
 
     /**
      *

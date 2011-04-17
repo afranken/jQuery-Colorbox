@@ -1,1 +1,1 @@
-jQuery(document).ready(function(a){a("img").each(function(b,c){$classValue=a(c).attr("class");if(!$classValue){a(c).attr("class","colorbox-manual")}if(!$classValue.match("colorbox")){$classValue+=" colorbox-manual";a(c).attr("class",$classValue)}})});
+jQuery(document).ready(function(a){a("img").each(function(b,c){if(!a(c).attr("class").match("colorbox")){a(c).addClass("colorbox-manual")}})});

@@ -24,18 +24,21 @@
     (function($) {
         colorboxSelector = function() {
 
-            <?php //set variables for images ?>
+<?php
+            //set variables for images ?>
             colorboxMaxWidth = colorboxImageMaxWidth;
             colorboxMaxHeight = colorboxImageMaxHeight;
             colorboxHeight = colorboxImageHeight;
             colorboxWidth = colorboxImageWidth;
             $("a:has(img):not(.colorbox-off)").each(function(index, obj) {
-            <?php //only go on if link points to an image ?>
+<?php
+            //only go on if link points to an image ?>
                 if ($(obj).attr("href").match(COLORBOX_IMG_PATTERN)) {
                     colorboxImage(index, obj)
                 }
             });
-            <?php //call colorboxLink on all elements that have CSS class called "colorbox-link" ?>
+<?php
+            //call colorboxLink on all elements that have CSS class called "colorbox-link" ?>
             $(COLORBOX_LINK_CLASS).each(function(index, obj) {
                 colorboxLink(index, obj)
             });
@@ -50,28 +53,33 @@
     ?>
     (function($) {
         colorboxImage = function(index, obj) {
-        <?php //in this context, the first child is always an image if fundamental Wordpress functions are used ?>
-            var $image = $(obj).children("img:nth-child(1)");
-            <?php //check if the link has a colorbox class ?>
+            var $image = $(obj).find("img:first");
+<?php
+            //check if the link has a colorbox class ?>
             var $linkClasses = $(obj).attr("class");
-            <?php //groupId is either the automatically created colorbox-123 or the manually added colorbox-manual ?>
             colorboxGroupId = $linkClasses.match(COLORBOX_CLASS_MATCH) || $linkClasses.match(COLORBOX_MANUAL);
             if (!colorboxGroupId) {
-            <?php // link does not have colorbox class. Check if image has colorbox class. ?>
+<?php
+                // link does not have colorbox class. Check if image has colorbox class. ?>
                 var $imageClasses = $image.attr("class");
                 if (!$imageClasses.match(COLORBOX_OFF)) {
-                <?php //groupId is either the automatically created colorbox-123 or the manually added colorbox-manual ?>
+<?php
+                    //groupId is either the automatically created colorbox-123 or the manually added colorbox-manual ?>
                     colorboxGroupId = $imageClasses.match(COLORBOX_CLASS_MATCH) || $imageClasses.match(COLORBOX_MANUAL);
                 }
-            <?php //only call Colorbox if there is a groupId for the image?>
+<?php
+                //only call Colorbox if there is a groupId for the image?>
                 if (colorboxGroupId) {
-                <?php //convert groupId to string and lose "colorbox-" for easier use ?>
+<?php
+                    //convert groupId to string and lose "colorbox-" for easier use ?>
                     colorboxGroupId = colorboxGroupId.toString().split('-')[1];
-                <?php  //if groudId is colorbox-manual, set groupId to "nofollow" so that images are not grouped ?>
+<?php
+                    //if groudId is colorbox-manual, set groupId to "nofollow" so that images are not grouped ?>
                     if (colorboxGroupId == "manual") {
                         colorboxGroupId = "nofollow";
                     }
-                <?php //the title of the img is used as the title for the Colorbox. ?>
+<?php
+                    //the title of the img is used as the title for the Colorbox. ?>
                     colorboxTitle = $image.attr("title");
 
                     colorboxWrapper(obj);
@@ -125,6 +133,8 @@
                 title:colorboxTitle,
                 maxHeight:colorboxMaxHeight,
                 maxWidth:colorboxMaxWidth,
+                initialHeight:colorboxInitialHeight,
+                initialWidth:colorboxInitialWidth,
                 height:colorboxHeight,
                 width:colorboxWidth,
                 slideshow:colorboxSlideshow,

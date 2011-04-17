@@ -60,6 +60,12 @@ Feature 10
 - enable tracking by Google Analytics and/or Piwik
     - https://groups.google.com/group/colorbox/browse_thread/thread/eed5244f9e033292/a80fc8be79ab4d34?lnk=gst&q=analytics#a80fc8be79ab4d34
 
+Feature 11
+- add possibility to disable adding of colorbox-ids to NextGEN images if auto-mode is on.
+
+Feature 12
+- add option to switch colorbox off for whole posts and pages
+
 
 Need to think about these features
 - add link to Fullscreen to Colorbox
@@ -68,4 +74,3 @@ Need to think about these features
 - display description/caption when mouse is hovering on the image
     - http://groups.google.com/group/colorbox/browse_thread/thread/4d4d5a02daa85ce9/1fcb9056d993a6e5?lnk=gst&q=description#1fcb9056d993a6e5
 
-- add option to switch colorbox off for whole posts and pages
