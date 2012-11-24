@@ -34,6 +34,7 @@ If you have questions or problems, feel free to write an entry at [the jQuery Co
 * Belorussian (`be_BY`) Marcis G.
 * Bosnian (`bs_BA`) by Vedran Jurincic
 * Bulgarian (`bg_BG`) by [Nikolay Zaynelov](http://nikolay.zaynelov.com)
+* Czech (`cs_CZ`) by David Weis
 * Simplified Chinese (`zh_CN`) by [Lucas Ho](http://tech.yiandya.com/)
 * Danish (`da_DK`) by Michael Bering Petersen
 * Dutch (`nl_NL`) by [Richard van Laak](http://nl.linkedin.com/pub/richard-laak/b/b21/672)
@@ -141,6 +142,7 @@ Do not forget to activate auto Colorbox if you want the Lightbox/Colorbox to wor
 == Changelog ==
 ### 4.5 (2012-11-03) ###
 * NEW: Bulgarian translation by Nikolay Zaynelov
+* NEW: Czech translation by David Weis
 * BUGFIX: Zoom overlay does not break floating images any more
 * BUGFIX: add CSS class to WP galleries if "add to all" is selected and the gallery is outside of the text area of a post and page
 * CHANGE: update Colorbox version to 1.3.20.1
