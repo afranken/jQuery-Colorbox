@@ -50,7 +50,7 @@ If you have questions or problems, feel free to write an entry at [the jQuery Co
 * Portuguese (`pt_BR`) by [Gervásio Antônio](http://twitter.com/gervasioantonio)
 * Romanian (`ro_RO`) by Luke Tyler
 * Russian (`ru_RU`) by Arkadiy Florinskiy
-* Slovak (`sk_SK`) by Stefan Stieranka
+* Slovak (`sk_SK`) by B. Radenovich
 * Spanish (`es_ES`) by Inma P.-Zubizarreta
 * Swedish (`sv_SE`) by [Christian](http://www.theindiaexperience.se/)
 * Turkish (`tr_TR`) by [Serhat Yolaçan](http://www.serhatyolacan.com/)
@@ -140,6 +140,9 @@ Do not forget to activate auto Colorbox if you want the Lightbox/Colorbox to wor
   I'll include new FAQs in newer versions.
 
 == Changelog ==
+### 4.6 (2012-01-30) ###
+* CHANGE: Update of the Slovak translation by B. Radenovich
+
 ### 4.5 (2012-11-03) ###
 * NEW: Bulgarian translation by Nikolay Zaynelov
 * NEW: Czech translation by David Weis
