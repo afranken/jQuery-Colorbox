@@ -141,7 +141,7 @@ Do not forget to activate auto Colorbox if you want the Lightbox/Colorbox to wor
 
 ## Changelog ##
 
-### 4.6 (2012-01-30) ###
+### 4.6 (2012-01-21) ###
 * NEW: Czech translation by David Weis
 * CHANGE: Update of the Slovak translation by B. Radenovich
 * CHANGE: update Colorbox version to 1.3.21
