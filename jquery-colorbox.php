@@ -19,8 +19,8 @@
 ?>
 <?php
 //define constants
-define('JQUERYCOLORBOX_VERSION', '4.5');
-define('COLORBOXLIBRARY_VERSION', '1.3.20.1');
+define('JQUERYCOLORBOX_VERSION', '4.6');
+define('COLORBOXLIBRARY_VERSION', '1.3.21');
 
 if (!defined('JQUERYCOLORBOX_PLUGIN_BASENAME')) {
   //jquery-colorbox/jquery-colorbox.php
@@ -48,7 +48,7 @@ if (!defined('JQUERYCOLORBOX_SETTINGSNAME')) {
   define('JQUERYCOLORBOX_SETTINGSNAME', 'jquery-colorbox_settings');
 }
 if (!defined('JQUERYLIBRARY_VERSION')) {
-  define('JQUERYLIBRARY_VERSION', '1.8.2');
+  define('JQUERYLIBRARY_VERSION', '1.9.0');
 }
 if (!defined('JQUERYCOLORBOX_USERAGENT')) {
   define('JQUERYCOLORBOX_USERAGENT', 'jQuery Colorbox V' . JQUERYCOLORBOX_VERSION . '; (' . get_bloginfo('url') . ')');
