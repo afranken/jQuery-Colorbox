@@ -62,7 +62,7 @@ Translating the plugin is easy if you understand english and are fluent in anoth
 I described in the [FAQ](http://wordpress.org/extend/plugins/jquery-colorbox/faq/) how the translation works.
 
 **Credits**  
-Includes [ColorBox](http://jacklmoore.com/colorbox/) 1.3.20.1 jQuery plugin from Jack Moore.
+Includes [ColorBox](http://jacklmoore.com/colorbox/) 1.3.21 jQuery plugin from Jack Moore.
 The picture I used for the screenshots was designed by [Davide Vicariotto](http://wallpapers.vintage.it/)
 
 == Installation ==
