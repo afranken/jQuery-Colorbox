@@ -23,6 +23,8 @@ var COLORBOX_LINK_CLASS_PATTERN = "colorbox-link-[0-9]+";
  */
 jQuery(document).ready(function() {
 
+  emulateConsoleForIE();
+
   console.group('jQuery Colorbox log messages');
   //check if config JavaScript was successfully inserted. Load defaults otherwise.
   if(typeof jQueryColorboxSettingsArray !== 'object') {
@@ -42,6 +44,34 @@ jQuery(document).ready(function() {
   colorboxSelector();
   console.groupEnd();
 });
+
+/**
+ * Make console.log do nothing in IE 9 and below, otherwise JavaScript would break
+ *
+ * @since 4.3
+ * @author Arne Franken
+ */
+(function(jQuery) {
+  emulateConsoleForIE = function() {
+
+    if (!console) {
+      console = {};
+    }
+    // union of Chrome, FF, IE, and Safari console methods
+    var m = [
+      "log", "info", "warn", "error", "debug", "trace", "dir", "group",
+      "groupCollapsed", "groupEnd", "time", "timeEnd", "profile", "profileEnd",
+      "dirxml", "assert", "count", "markTimeline", "timeStamp", "clear"
+    ];
+    // define undefined methods as noops to prevent errors
+    for (var i = 0; i < m.length; i++) {
+      if (!console[m[i]]) {
+        console[m[i]] = function() {};
+      }
+    }
+
+  }
+})(jQuery);
 
 /**
  * colorboxShowFlash
