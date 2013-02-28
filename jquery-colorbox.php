@@ -133,7 +133,8 @@ class JQueryColorbox {
     if (is_admin()) {
       require_once 'includes/jquery-colorbox-backend.php';
       new JQueryColorboxBackend($this->colorboxSettings, $this->colorboxThemes, $this->colorboxUnits, $this->colorboxTransitions, $this->jQueryColorboxDefaultSettings());
-    } else {
+    }
+    else {
       require_once 'includes/jquery-colorbox-frontend.php';
       new JQueryColorboxFrontend($this->colorboxSettings);
     }
