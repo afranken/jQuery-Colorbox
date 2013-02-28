@@ -428,7 +428,7 @@ jQuery(document).ready(function() {
 (function (jQuery) {
   colorboxAddZoomOverlayToImages = function ($link, $image) {
     console.debug("Add zoom hover to link %o",$link);
-    var $zoomHover = jQuery('<span class="zoomHover" style="opacity: 0;"></span>');
+    var $zoomHover = jQuery('<span class="zoomHover" style="opacity: 0; margin: 0; padding: 0;"></span>');
 
     //add float from image to link, otherwise the zoom overlay would not be visible
     $link.css("float",$image.css("float"));
