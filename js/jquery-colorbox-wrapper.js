@@ -254,6 +254,13 @@ jQuery(document).ready(function() {
         if ($imageTitle !== undefined) {
           ColorboxLocal.colorboxTitle = $imageTitle;
         }
+        else {
+          //try to use the alt of the img as the title for the Colorbox.
+          var $imageAlt = $image.attr("alt");
+          if ($imageAlt !== undefined) {
+            ColorboxLocal.colorboxTitle = $imageAlt;
+          }
+        }
 
         if (jQueryColorboxSettingsArray.addZoomOverlay === "true") {
           colorboxAddZoomOverlayToImages(jQuery(link), $image);
