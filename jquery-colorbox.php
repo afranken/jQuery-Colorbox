@@ -48,7 +48,7 @@ if (!defined('JQUERYCOLORBOX_SETTINGSNAME')) {
   define('JQUERYCOLORBOX_SETTINGSNAME', 'jquery-colorbox_settings');
 }
 if (!defined('JQUERYLIBRARY_VERSION')) {
-  define('JQUERYLIBRARY_VERSION', '1.9.0');
+  define('JQUERYLIBRARY_VERSION', '1.10.1');
 }
 if (!defined('JQUERYCOLORBOX_USERAGENT')) {
   define('JQUERYCOLORBOX_USERAGENT', 'jQuery Colorbox V' . JQUERYCOLORBOX_VERSION . '; (' . get_bloginfo('url') . ')');

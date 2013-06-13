@@ -142,6 +142,7 @@ Do not forget to activate auto Colorbox if you want the Lightbox/Colorbox to wor
 == Changelog ==
 ### 4.7 (2013-06-30) ###
 * CHANGE: If title attribute of image is empty, the alt attribute is used to display the colorbox title.
+* CHANGE: update jQuery version to 1.10.1 (if selected on settings page)
 
 ### 4.6 (2013-01-21) ###
 * NEW: Czech translation by David Weis
