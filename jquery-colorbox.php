@@ -19,8 +19,8 @@
 ?>
 <?php
 //define constants
-define('JQUERYCOLORBOX_VERSION', '4.6');
-define('COLORBOXLIBRARY_VERSION', '1.3.21');
+define('JQUERYCOLORBOX_VERSION', '4.6.1');
+define('COLORBOXLIBRARY_VERSION', '1.4.33');
 
 if (!defined('JQUERYCOLORBOX_PLUGIN_BASENAME')) {
   //jquery-colorbox/jquery-colorbox.php

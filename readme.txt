@@ -62,7 +62,7 @@ Translating the plugin is easy if you understand english and are fluent in anoth
 I described in the [FAQ](http://wordpress.org/extend/plugins/jquery-colorbox/faq/) how the translation works.
 
 **Credits**  
-Includes [ColorBox](http://jacklmoore.com/colorbox/) 1.3.21 jQuery plugin from Jack Moore.
+Includes [ColorBox](http://jacklmoore.com/colorbox/) 1.4.33 jQuery plugin from Jack Moore.
 The picture I used for the screenshots was designed by [Davide Vicariotto](http://wallpapers.vintage.it/)
 
 == Installation ==
@@ -140,8 +140,9 @@ Do not forget to activate auto Colorbox if you want the Lightbox/Colorbox to wor
   I'll include new FAQs in newer versions.
 
 == Changelog ==
-### 4.7 (2013-06-30) ###
+### 4.7 (2013-12-20) ###
 * CHANGE: If title attribute of image is empty, the alt attribute is used to display the colorbox title.
+* CHANGE: update Colorbox version to 1.4.33
 * CHANGE: update jQuery version to 1.10.1 (if selected on settings page)
 
 ### 4.6 (2013-01-21) ###
