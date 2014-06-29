@@ -363,3 +363,7 @@ Do not forget to activate auto Colorbox if you want the Lightbox/Colorbox to wor
 ### 1.0 ###
 * NEW: Initial release.
 * NEW: Added Colorbox version 1.3.5
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/afranken/jquery-colorbox/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
